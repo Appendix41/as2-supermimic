@@ -2402,6 +2402,83 @@
       "kind": "evidence"
     },
     {
+      "source": "as2-motion-imitation/outputs/backflip/replay/training-stages.mp4",
+      "destination": "repository/docs/media/backflip-training-stages.mp4",
+      "sha256": "88ecbc7880e8d2b909651c32d5d874a21ffcda4e571673c2a216d9f246a4711e",
+      "bytes": 4801575,
+      "kind": "evidence"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/backflip/replay/landing-failures.mp4",
+      "destination": "repository/docs/media/backflip-landing-failures.mp4",
+      "sha256": "0078a7ae0687fbbe462115cba56eb4955838b9581c0f6f1474b1b10bf85d1433",
+      "bytes": 3623640,
+      "kind": "evidence"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/backflip/replay/provenance.json",
+      "destination": "repository/docs/media/backflip-replay-provenance.json",
+      "source_sha256": "b31694dbc89143933dab798b13c898f973effc8fcb075fbe9c323702b58c74a0",
+      "sha256": "b31694dbc89143933dab798b13c898f973effc8fcb075fbe9c323702b58c74a0",
+      "bytes": 6152,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/training/forward-jump-4096-v1/config.json",
+      "destination": "repository/docs/results/training-single-jump-config.json",
+      "source_sha256": "884661fa6e54cdfc38715b19d2cfda6eec333c2c6ab7157edb42f4f76880dcc5",
+      "sha256": "884661fa6e54cdfc38715b19d2cfda6eec333c2c6ab7157edb42f4f76880dcc5",
+      "bytes": 1103,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/training/forward-jump-4096-v1/status.json",
+      "destination": "repository/docs/results/training-single-jump-status.json",
+      "source_sha256": "6d7ba2fbc1d8fdde8d5436b176bb7a5f8a8e7ca8cfaad851a8b86d026d41c168",
+      "sha256": "6d7ba2fbc1d8fdde8d5436b176bb7a5f8a8e7ca8cfaad851a8b86d026d41c168",
+      "bytes": 1449,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/training/backflip-4096-v1/config.json",
+      "destination": "repository/docs/results/training-backflip-config.json",
+      "source_sha256": "57d105876296fe580240bbd3fc5ac29c5a1c341140174a3543a17ba314c3b70a",
+      "sha256": "57d105876296fe580240bbd3fc5ac29c5a1c341140174a3543a17ba314c3b70a",
+      "bytes": 1329,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/training/backflip-4096-v1/status.json",
+      "destination": "repository/docs/results/training-backflip-status.json",
+      "source_sha256": "0fb8e740c899b645c209b22587a3d9f6e49606ee67081e66ad1bca39c4bd064c",
+      "sha256": "0fb8e740c899b645c209b22587a3d9f6e49606ee67081e66ad1bca39c4bd064c",
+      "bytes": 1833,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-sim2real/outputs/training/proprio-single-jump-4096-v1/config.json",
+      "destination": "repository/docs/results/training-proprio-single-jump-config.json",
+      "source_sha256": "d444db02eef660d1ddd33c81e6cc213b721f3705c9ecf4c9beb68e89de6a8399",
+      "sha256": "d444db02eef660d1ddd33c81e6cc213b721f3705c9ecf4c9beb68e89de6a8399",
+      "bytes": 1321,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-sim2real/outputs/training/proprio-single-jump-4096-v1/status.json",
+      "destination": "repository/docs/results/training-proprio-single-jump-status.json",
+      "source_sha256": "53f4bc893727d3b70de81bf2d76a465b7bbe0bc3721ecba0864d76010e303842",
+      "sha256": "53f4bc893727d3b70de81bf2d76a465b7bbe0bc3721ecba0864d76010e303842",
+      "bytes": 1767,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
       "source": "agx-snapshot/follow-up/analysis/as2_jump.py",
       "destination": "repository/hardware-single-jump/as2_jump.py",
       "sha256": "feb89fcbb3d4c1faadd8fe14d42f9427c6655fe622d2dd64caa16c2a03c784a3",

@@ -1,0 +1,170 @@
+{
+  "timing_scope": "Recorded training-loop elapsed time, including initial collection and in-loop diagnostics/checkpoints; excludes startup, reference search, independent evaluation, video preparation, hardware deployment and the final checkpoint write after the last logged timestamp. Single recorded runs, not a multi-run hardware benchmark.",
+  "runs": [
+    {
+      "name": "single-jump",
+      "gpu": "NVIDIA RTX PRO 5000 Blackwell",
+      "gpu_count_used_by_run": 1,
+      "device": "cuda:0",
+      "num_envs": 4096,
+      "seed": 23,
+      "iterations": 1000,
+      "actor_updates": 700,
+      "collected_transitions": 18104320,
+      "training_loop_seconds": 1206.870692778146,
+      "training_loop_minutes": 20.11451154630243,
+      "torch_peak_allocated_bytes": 3482644480,
+      "physics_backend": "mjwarp",
+      "initial_collect_steps": 420,
+      "collect_steps_per_iteration": 4,
+      "world_model_hidden": [
+        1024,
+        1024,
+        1024
+      ],
+      "actor_hidden": [
+        512,
+        256,
+        128
+      ],
+      "critic_hidden": [
+        512,
+        256,
+        128
+      ],
+      "world_model_window": 8,
+      "world_model_batch": 512,
+      "world_model_updates_per_iteration": 4,
+      "imagination_horizon": 32,
+      "imagination_batch": 256,
+      "published_config": "training-single-jump-config.json",
+      "published_status": "training-single-jump-status.json",
+      "sources": [
+        {
+          "source": "as2-motion-imitation/outputs/training/forward-jump-4096-v1/config.json",
+          "sha256": "884661fa6e54cdfc38715b19d2cfda6eec333c2c6ab7157edb42f4f76880dcc5"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/training/forward-jump-4096-v1/status.json",
+          "sha256": "6d7ba2fbc1d8fdde8d5436b176bb7a5f8a8e7ca8cfaad851a8b86d026d41c168"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/forward-jump-training/train4096-console.log",
+          "sha256": "3b87481ce67661f96da88e0df9759234935faee45037c37ce0c0e0f6d5baf83a",
+          "gpu_header_line": 7,
+          "gpu_header": "\"cuda:0\"   : \"NVIDIA RTX PRO 5000 Blackwell\" (47 GiB, sm_120, mempool enabled)"
+        }
+      ]
+    },
+    {
+      "name": "backflip",
+      "gpu": "NVIDIA RTX PRO 5000 Blackwell",
+      "gpu_count_used_by_run": 1,
+      "device": "cuda:0",
+      "num_envs": 4096,
+      "seed": 23,
+      "iterations": 2400,
+      "actor_updates": 1401,
+      "collected_transitions": 41369600,
+      "training_loop_seconds": 2563.7366783099715,
+      "training_loop_minutes": 42.72894463849953,
+      "torch_peak_allocated_bytes": 4537177600,
+      "physics_backend": "mjwarp",
+      "initial_collect_steps": 500,
+      "collect_steps_per_iteration": 4,
+      "world_model_hidden": [
+        1024,
+        1024,
+        1024
+      ],
+      "actor_hidden": [
+        512,
+        256,
+        128
+      ],
+      "critic_hidden": [
+        512,
+        256,
+        128
+      ],
+      "world_model_window": 8,
+      "world_model_batch": 512,
+      "world_model_updates_per_iteration": 4,
+      "imagination_horizon": 32,
+      "imagination_batch": 256,
+      "published_config": "training-backflip-config.json",
+      "published_status": "training-backflip-status.json",
+      "sources": [
+        {
+          "source": "as2-motion-imitation/outputs/training/backflip-4096-v1/config.json",
+          "sha256": "57d105876296fe580240bbd3fc5ac29c5a1c341140174a3543a17ba314c3b70a"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/training/backflip-4096-v1/status.json",
+          "sha256": "0fb8e740c899b645c209b22587a3d9f6e49606ee67081e66ad1bca39c4bd064c"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/backflip/train4096-console.log",
+          "sha256": "bba348e49bb35b9389fd589344cbf15b05318f8be7a13c144e67675ab4b63381",
+          "gpu_header_line": 7,
+          "gpu_header": "\"cuda:0\"   : \"NVIDIA RTX PRO 5000 Blackwell\" (47 GiB, sm_120, mempool enabled)"
+        }
+      ]
+    },
+    {
+      "name": "proprio-single-jump",
+      "gpu": "NVIDIA RTX PRO 5000 Blackwell",
+      "gpu_count_used_by_run": 1,
+      "device": "cuda:0",
+      "num_envs": 4096,
+      "seed": 23,
+      "iterations": 1400,
+      "actor_updates": 1100,
+      "collected_transitions": 24657920,
+      "training_loop_seconds": 1805.8650021939538,
+      "training_loop_minutes": 30.0977500365659,
+      "torch_peak_allocated_bytes": 3422112768,
+      "physics_backend": "mjwarp",
+      "initial_collect_steps": 420,
+      "collect_steps_per_iteration": 4,
+      "world_model_hidden": [
+        1024,
+        1024,
+        1024
+      ],
+      "actor_hidden": [
+        512,
+        256,
+        128
+      ],
+      "critic_hidden": [
+        512,
+        256,
+        128
+      ],
+      "world_model_window": 8,
+      "world_model_batch": 512,
+      "world_model_updates_per_iteration": 4,
+      "imagination_horizon": 32,
+      "imagination_batch": 256,
+      "published_config": "training-proprio-single-jump-config.json",
+      "published_status": "training-proprio-single-jump-status.json",
+      "sources": [
+        {
+          "source": "as2-sim2real/outputs/training/proprio-single-jump-4096-v1/config.json",
+          "sha256": "d444db02eef660d1ddd33c81e6cc213b721f3705c9ecf4c9beb68e89de6a8399"
+        },
+        {
+          "source": "as2-sim2real/outputs/training/proprio-single-jump-4096-v1/status.json",
+          "sha256": "53f4bc893727d3b70de81bf2d76a465b7bbe0bc3721ecba0864d76010e303842"
+        },
+        {
+          "source": "as2-sim2real/outputs/training/proprio-single-jump-4096-v1-console.log",
+          "sha256": "adf8631de6417ed31e02215d9fed4c64e0c30a756fc8a698c9faf1e04d74412e",
+          "gpu_header_line": 7,
+          "gpu_header": "\"cuda:0\"   : \"NVIDIA RTX PRO 5000 Blackwell\" (47 GiB, sm_120, mempool enabled)"
+        }
+      ]
+    }
+  ]
+}

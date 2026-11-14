@@ -26,6 +26,9 @@ Activate a matching environment so `python3` resolves to its interpreter, or
 set `PYTHON_BIN` to that environment's Python executable. The new wrapper does
 not hardcode the original machine's interpreter path.
 
+For the recorded GPU, environment count, training time, and network settings,
+see [Training](training.md).
+
 ## Workspaces
 
 From the repository root:

@@ -2,7 +2,7 @@
 
 **Reference-conditioned motion imitation for Unitree AS2, from simulation to a real single jump.**
 
-[中文](README.zh-CN.md) · [Method](docs/method.md) · [Reproduction](docs/reproduction.md) · [Results](docs/results.md) · [Sim-to-Real](docs/sim2real-integration.md) · [Provenance](docs/provenance.md)
+[中文](README.zh-CN.md) · [Method](docs/method.md) · [Training](docs/training.md) · [Reproduction](docs/reproduction.md) · [Results](docs/results.md) · [Sim-to-Real](docs/sim2real-integration.md) · [Provenance](docs/provenance.md)
 
 AS2-SuperMimic learns closed-loop control conditioned on reference motion
 trajectories. The policy combines recent robot observations with current and
@@ -16,9 +16,34 @@ This is an AS2 motion-imitation project, not the official SuperMimic repository.
 | ![Learned single forward jump in simulation](docs/media/single-jump.gif) | ![Learned experimental backflip in simulation](docs/media/backflip-experimental.gif) |
 | [Full policy video](docs/media/single-jump.mp4) | [Full policy video](docs/media/backflip-experimental.mp4) |
 
-Both videos show learned actor-only rollouts in simulation, not scripted pose
-playback. The backflip demonstrates learned backward rotation; contact,
-joint-limit, and final-stance limitations remain documented in [Results](docs/results.md).
+Both videos show learned policy rollouts in simulation. The backflip policy
+has learned an airborne backward turn.
+
+## Training Progress
+
+| Single-Jump Stages | Backflip Stages | Backflip Landing Failures |
+| :---: | :---: | :---: |
+| [![Single-jump training stages](docs/media/single-jump-training-stages.jpg)](docs/media/single-jump-training-stages.mp4) | [![Backflip training stages](docs/media/backflip-training-stages.jpg)](docs/media/backflip-training-stages.mp4) | [![Backflip landing failures](docs/media/backflip-landing-failures.jpg)](docs/media/backflip-landing-failures.mp4) |
+| [Iterations 0, 400, 800, 1000 · 32.16 s](docs/media/single-jump-training-stages.mp4) | [Seven stages, iteration 0 to 2400 · 56.28 s](docs/media/backflip-training-stages.mp4) | [Iterations 1800 and 2000 · 28.88 s](docs/media/backflip-landing-failures.mp4) |
+
+These are saved checkpoint evaluations, including early attempts without takeoff
+and failed landings. Stage comparisons play at original speed; the landing reel
+also includes quarter-speed, 1.5x enlarged replays.
+
+## Training Setup
+
+Each run used one **NVIDIA RTX PRO 5000 Blackwell** with **4096 parallel
+physics environments** in MuJoCo Warp and training seed 23.
+
+| Model | Iterations | Training Loop | Collected Transitions |
+| --- | ---: | ---: | ---: |
+| Simulated single forward jump | 1000 | 20.1 min | 18,104,320 |
+| Simulated backflip | 2400 | 42.7 min | 41,369,600 |
+| Proprioceptive single jump (sim-to-real) | 1400 | 30.1 min | 24,657,920 |
+
+Times come from the recorded runs and include initial collection, but exclude
+startup, reference search, independent evaluation, and hardware deployment.
+See [training settings and records](docs/training.md) for network sizes and batches.
 
 ## Reference Motion Tracking
 

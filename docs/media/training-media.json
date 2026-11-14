@@ -1,0 +1,97 @@
+{
+  "scope": "Recorded checkpoint evaluations; no new training or simulation.",
+  "assets": [
+    {
+      "file": "single-jump-training-stages.mp4",
+      "sha256": "50592badfb6c2ee36d32cb1f05f30d302aaed20037d5335783788a22e6dee608",
+      "fps": 25,
+      "frames": 804,
+      "duration_s": 32.16,
+      "transformation": "Complete original-speed clips, re-encoded with a label band.",
+      "chapters": [
+        {
+          "iteration": 0,
+          "start_s": 0.0,
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-initial/policy-seed100.mp4"
+        },
+        {
+          "iteration": 400,
+          "start_s": 8.04,
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-it400/policy-seed100.mp4"
+        },
+        {
+          "iteration": 800,
+          "start_s": 16.08,
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-it800/policy-seed100.mp4"
+        },
+        {
+          "iteration": 1000,
+          "start_s": 24.12,
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-final/policy-seed100.mp4"
+        }
+      ],
+      "sources": [
+        {
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-initial/policy-seed100.mp4",
+          "sha256": "cfa80315659e6ac1930f9ac637bfe62f8ea4ddaeadc8a0f0f8f7d8c087d4a413"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-initial/metrics.json",
+          "sha256": "5f1e39a0ebc25dfe8be423cf4a4cdd17ba890d63e227ad63c21cb4b22c10c030"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-it400/policy-seed100.mp4",
+          "sha256": "e9fa656c6257d6bbdbec69e20f73d7f0d1f02478257723bb69abb6a242f39fcf"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-it400/metrics.json",
+          "sha256": "706d02601154622d3c94d045ba2d0d1d65c28798f8722ce344a10782cd756e16"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-it800/policy-seed100.mp4",
+          "sha256": "c1655de6365f40947e127fa7ee70ea4d30c89854e8767aa2dd6a5522ebb09218"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-it800/metrics.json",
+          "sha256": "0e030a724d1e6a94596d6ebf242db03e151f4ce33a81407de626bae211a1445c"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-final/policy-seed100.mp4",
+          "sha256": "0d5ec961dead91a0ac4c431e82bae568b9ef1d61e73eaf8a2f890be38afead88"
+        },
+        {
+          "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-final/metrics.json",
+          "sha256": "572e080d47748fe30455492f30c015d00744245219eacd24e4c957da92b4f7ff"
+        }
+      ],
+      "poster": "single-jump-training-stages.jpg",
+      "poster_sha256": "72e2e4bf1d9611e90f902fb6e7b22e09465ebc5a428bb849de4abe2116efdc13",
+      "poster_frame": 457,
+      "all_frames_decoded": true
+    },
+    {
+      "file": "backflip-training-stages.mp4",
+      "sha256": "88ecbc7880e8d2b909651c32d5d874a21ffcda4e571673c2a216d9f246a4711e",
+      "fps": 25,
+      "frames": 1407,
+      "duration_s": 56.28,
+      "transformation": "Byte-identical copy of the existing montage.",
+      "poster": "backflip-training-stages.jpg",
+      "poster_sha256": "0127c6bfd44e89b0c69626147b8a1dd33adaf6bb7f987a22067b296d464d84cc",
+      "poster_frame": 649,
+      "all_frames_decoded": true
+    },
+    {
+      "file": "backflip-landing-failures.mp4",
+      "sha256": "0078a7ae0687fbbe462115cba56eb4955838b9581c0f6f1474b1b10bf85d1433",
+      "fps": 25,
+      "frames": 722,
+      "duration_s": 28.88,
+      "transformation": "Byte-identical copy of the existing montage.",
+      "poster": "backflip-landing-failures.jpg",
+      "poster_sha256": "5382bf5f6212ce9b496e7a988812803cd6ab1f7b44b127f29b76d91c5070e1c6",
+      "poster_frame": 281,
+      "all_frames_decoded": true
+    }
+  ]
+}

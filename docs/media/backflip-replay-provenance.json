@@ -1,0 +1,195 @@
+{
+  "operation": "Existing evaluation video packaging only; no simulation or training.",
+  "montage_fps": 25,
+  "montage_frames": 1407,
+  "montage_duration_s": 56.28,
+  "chapters": [
+    {
+      "iteration": 0,
+      "start_s": 0.0
+    },
+    {
+      "iteration": 1400,
+      "start_s": 8.04
+    },
+    {
+      "iteration": 1600,
+      "start_s": 16.08
+    },
+    {
+      "iteration": 1800,
+      "start_s": 24.12
+    },
+    {
+      "iteration": 2000,
+      "start_s": 32.16
+    },
+    {
+      "iteration": 2200,
+      "start_s": 40.2
+    },
+    {
+      "iteration": 2400,
+      "start_s": 48.24
+    }
+  ],
+  "landing_failure_reel": {
+    "file": "landing-failures.mp4",
+    "frames": 722,
+    "duration_s": 28.88,
+    "chapters": [
+      {
+        "iteration": 1800,
+        "start_s": 0.0,
+        "source_video": "../../evaluation/backflip-4096-it1800/policy-seed100.mp4",
+        "source_frame_start": 0,
+        "source_frame_stop_exclusive": 201,
+        "source_fps": 25,
+        "playback_rate": 1,
+        "zoom": 1,
+        "crop_xyxy": null
+      },
+      {
+        "iteration": 1800,
+        "start_s": 8.04,
+        "source_video": "../../evaluation/backflip-4096-it1800/policy-seed100.mp4",
+        "source_frame_start": 40,
+        "source_frame_stop_exclusive": 80,
+        "source_fps": 25,
+        "playback_rate": 0.25,
+        "zoom": 1.5,
+        "crop_xyxy": [
+          160,
+          150,
+          800,
+          510
+        ]
+      },
+      {
+        "iteration": 2000,
+        "start_s": 14.44,
+        "source_video": "../../evaluation/backflip-4096-it2000/policy-seed100.mp4",
+        "source_frame_start": 0,
+        "source_frame_stop_exclusive": 201,
+        "source_fps": 25,
+        "playback_rate": 1,
+        "zoom": 1,
+        "crop_xyxy": null
+      },
+      {
+        "iteration": 2000,
+        "start_s": 22.48,
+        "source_video": "../../evaluation/backflip-4096-it2000/policy-seed100.mp4",
+        "source_frame_start": 40,
+        "source_frame_stop_exclusive": 80,
+        "source_fps": 25,
+        "playback_rate": 0.25,
+        "zoom": 1.5,
+        "crop_xyxy": [
+          160,
+          150,
+          800,
+          510
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "../../evaluation/backflip-4096-initial/policy-seed100.mp4",
+      "sha256": "31211b66e8ac2f11bbd8cee75ff0071ff9d8b85bc35721e9c562059a2f5e08f9"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-initial/metrics.json",
+      "sha256": "54763d990e85f6605110a8ee0980fb2c778b8b9d02233b7e7b3dd4bebd5daf46"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-initial/seed-100.npz",
+      "sha256": "e244bd6baf195950ba0c95b1cb524cccd037cc2669045c9250f2ad6bc5d6ae08"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1400/policy-seed100.mp4",
+      "sha256": "47605357edab82e5ebb6ed656160a160c0c881c0d29853ec18aa9d5f40545d01"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1400/metrics.json",
+      "sha256": "2018abd416d1c9d8be994acc607671e427053f87d87b352b69d4cc9d9850a2b3"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1400/seed-100.npz",
+      "sha256": "c509e0e9be2ef5438c5b37a76dfead997b82e084c110e61de412cbb7266757a4"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1600/policy-seed100.mp4",
+      "sha256": "3ba6453ca2cc38dfc20d2dadddb2db41abc4f6192fb8375ff2f4b9c8d7e21395"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1600/metrics.json",
+      "sha256": "8f69d4cdbeffb1f797046f6a38bb6ae4ec338865817ac90fecc213fcbed8a7b2"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1600/seed-100.npz",
+      "sha256": "4a94013b5b0448bbabca2c95758fccf30217609677a185c31d8a4ed509e9bd3f"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1800/policy-seed100.mp4",
+      "sha256": "75081a005aaf247de78f10f5c672b479fc9eff07526d4da11dcaf475203ffe66"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1800/metrics.json",
+      "sha256": "84e56e74019c919b073e46acf3d03c24a8f6d22a3695e390b910fba90f113182"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it1800/seed-100.npz",
+      "sha256": "9ba4485a2d5f904f79ec3e5c907d7cce5e2ebf3cc4be2f788481186181ae7a07"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it2000/policy-seed100.mp4",
+      "sha256": "d81eb75a4cb3c0c112f4768acae3fcbb98edf16b7b77de27e104ace23635e78d"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it2000/metrics.json",
+      "sha256": "7beaf5306a6624bf9dd5c8e55e940f82ca99c20f11cdcecf189f774cce3417e5"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it2000/seed-100.npz",
+      "sha256": "7e81cfddb5ac7aee6eafdc44a45a8faddce1cec1bdc57328b1e5ec6724720e52"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it2200/policy-seed100.mp4",
+      "sha256": "27750743124714a42ddd3ee803d7f0c96fabf618ac43f4aee9d33f415ea952a6"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it2200/metrics.json",
+      "sha256": "91d9874c69b5060607bf163760e4ec10810a7824bc7c79a5227c7c7ee89385c7"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-it2200/seed-100.npz",
+      "sha256": "964466ddabfe3f32737b1f546aa1518282aac7c42b20cafe68a4a8adb339ade4"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-final/policy-seed100.mp4",
+      "sha256": "ea75d616d7c61ed7ca688cd31f907ab129a9d83258439e2176531b167bfe23ba"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-final/metrics.json",
+      "sha256": "d77a820ed9c613dc19001fb92bcb5b0a7a1a13e3b5723548fa3a9018e37f3680"
+    },
+    {
+      "path": "../../evaluation/backflip-4096-final/seed-100.npz",
+      "sha256": "01e37dfe78e4af5daab8f8221140c1e3be0e5b26c8ba26524ea2e94a9af19c46"
+    },
+    {
+      "path": "../audit-04/scripted-backflip.mp4",
+      "sha256": "a05ef98f4d73532799a0bc3c9475cd866a4a8291877ea3436a617bbc3548b80d"
+    },
+    {
+      "path": "../audit-04/nominal-metrics.json",
+      "sha256": "807d16bed9665b016a89bf90bcdefd8003f9973900a177be5d556ad6c5934ed8"
+    },
+    {
+      "path": "../audit-04/perturbation-results.json",
+      "sha256": "cd80cac8c0a09be2ac99f77212e39db4c6c65c4d76458ceb5d920c44c20eb896"
+    }
+  ]
+}

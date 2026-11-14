@@ -2,7 +2,7 @@
 
 **基于参考动作轨迹的 Unitree AS2 动作模仿，从仿真学习到真机单跳。**
 
-[English](README.md) · [方法](docs/method.md) · [复现说明](docs/reproduction.md) · [实验结果](docs/results.md) · [Sim-to-Real](docs/sim2real-integration.md) · [来源](docs/provenance.md)
+[English](README.md) · [方法](docs/method.md) · [训练](docs/training.md) · [复现说明](docs/reproduction.md) · [实验结果](docs/results.md) · [Sim-to-Real](docs/sim2real-integration.md) · [来源](docs/provenance.md)
 
 AS2-SuperMimic 让 AS2 根据参考轨迹学习动作。策略读取机器人反馈、参考状态和
 动作相位，在学习到的世界模型中优化，再到物理仿真中测试。
@@ -14,8 +14,31 @@ AS2-SuperMimic 让 AS2 根据参考轨迹学习动作。策略读取机器人反
 | ![AS2 单次前跳学习策略](docs/media/single-jump.gif) | ![AS2 后空翻学习策略实验](docs/media/backflip-experimental.gif) |
 | [完整策略视频](docs/media/single-jump.mp4) | [完整策略视频](docs/media/backflip-experimental.mp4) |
 
-上面两段演示均为学习策略在仿真中的表现。后空翻已学到腾空后转动作，
-落地接触、关节限位和末尾站姿仍有不足，见[实验结果](docs/results.md)。
+上面两段演示均为学习策略在仿真中的表现。后空翻已学到腾空后转动作。
+
+## 训练过程
+
+| 前跳阶段对比 | 后空翻阶段对比 | 后空翻落地失败 |
+| :---: | :---: | :---: |
+| [![前跳训练阶段](docs/media/single-jump-training-stages.jpg)](docs/media/single-jump-training-stages.mp4) | [![后空翻训练阶段](docs/media/backflip-training-stages.jpg)](docs/media/backflip-training-stages.mp4) | [![后空翻落地失败回放](docs/media/backflip-landing-failures.jpg)](docs/media/backflip-landing-failures.mp4) |
+| [初始、400、800、1000 次迭代 · 32.16 秒](docs/media/single-jump-training-stages.mp4) | [初始到 2400 次迭代，7 个阶段 · 56.28 秒](docs/media/backflip-training-stages.mp4) | [1800、2000 次迭代 · 28.88 秒](docs/media/backflip-landing-failures.mp4) |
+
+这些视频来自训练期间保存的策略评估录像，保留了早期未起跳和落地失败的阶段。
+阶段对比按原速播放；落地失败视频另附 0.25 倍速、1.5 倍放大的局部回放。
+
+## 训练设备与耗时
+
+训练使用单张 **NVIDIA RTX PRO 5000 Blackwell**，通过 MuJoCo Warp
+运行 **4096 个并行物理环境**，训练种子为 23。
+
+| 模型 | 迭代数 | 训练循环耗时 | 采集转移数 |
+| --- | ---: | ---: | ---: |
+| 仿真单次前跳 | 1000 | 20.1 分钟 | 18,104,320 |
+| 仿真后空翻 | 2400 | 42.7 分钟 | 41,369,600 |
+| 本体感知单跳（Sim-to-Real） | 1400 | 30.1 分钟 | 24,657,920 |
+
+耗时取自各次训练日志，包含初始数据采集，不含初始化、参考轨迹搜索、独立评估和
+真机部署。网络规模、batch size 等参数见[训练配置与记录](docs/training.md)。
 
 ## 参考轨迹驱动的动作模仿
 

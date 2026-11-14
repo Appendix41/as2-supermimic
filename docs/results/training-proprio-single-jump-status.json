@@ -1,0 +1,53 @@
+{
+  "iteration": 1400,
+  "world_model_loss": 0.20028910040855408,
+  "collection_score_mixed_driver": 0.9251074399799109,
+  "cumulative_failures": 12158,
+  "collected_transitions": 24657920,
+  "model_audit": {
+    "iteration": 1400,
+    "horizon": 8,
+    "phases": [
+      0.4,
+      1.6,
+      1.84,
+      2.1,
+      2.32,
+      2.5
+    ],
+    "scope": "Diagnostic restored-state finite differences, not policy success",
+    "state_rmse_mixed_units": 0.040107324719429016,
+    "height_rmse_m": 0.0017131726490333676,
+    "joint_rmse_rad": 0.0038678098935633898,
+    "gravity_rmse": 0.0012701050145551562,
+    "angular_rmse_rad_s": 0.04149530827999115,
+    "height_response_cosine": 0.9781423807144165,
+    "height_response_relative_error": 0.21027927100658417,
+    "joint_response_cosine": 0.9944009184837341,
+    "joint_response_relative_error": 0.10669125616550446,
+    "feet_response_cosine": 0.9910591840744019,
+    "feet_response_relative_error": 0.13342984020709991,
+    "gravity_response_cosine": 0.995156466960907,
+    "gravity_response_relative_error": 0.09884989261627197,
+    "angular_response_cosine": 0.9735418558120728,
+    "angular_response_relative_error": 0.22922685742378235
+  },
+  "imagined_return": 1.4870612621307373,
+  "imagined_tracking_score": 0.9239185601472855,
+  "actor_grad_norm": 0.7687172293663025,
+  "critic_loss": 5.0183698476757854e-05,
+  "actor_updates": 1100,
+  "actor_lr": 5e-05,
+  "model_gate_passed": true,
+  "elapsed_seconds": 1805.8650021939538,
+  "device": "cuda:0",
+  "physics_backend": "mjwarp",
+  "num_envs": 4096,
+  "physics_capacity": {
+    "max_constraints": 13,
+    "constraint_capacity_per_env": 256,
+    "contacts_total": 15734,
+    "contacts_capacity_total": 262144
+  },
+  "torch_peak_allocated_bytes": 3422112768
+}
