@@ -1,0 +1,71 @@
+{
+  "schema": "as2-hardware-single-jump-snapshot-v1",
+  "inspected_at_utc": "2026-11-14T07:50:46.804288+00:00",
+  "source_files_modified": false,
+  "publication_comments_edited": true,
+  "selected_run": "evidence/jump-152659.json",
+  "author_reports_hardware_jump_success": true,
+  "historical_run_embeds_source_or_actor_hashes": false,
+  "source_snapshot_postdates_selected_run": true,
+  "hardware_video_included": false,
+  "bundle_attachment": "as2-proprio-actor-bundle",
+  "current_agx_bundle_matches_archived_export": true,
+  "checkpoint_sha256_from_bundle_manifest": "c939893b8c0021f48a5952dcd94221e5c9a8455adc8b3ecc1c958773b8d66b38",
+  "bundle_files": {
+    "actor.npz": "2433c83defc27c4d5cc2d7d8765e6b68b6e00c4dc8227819f148f54e77cf7266",
+    "reference.npz": "45c4ac7da5c4dfd29eed49ed84a3831e31a2d440de5c12c4ed6db1830d3bed7b",
+    "parity_cases.npz": "88d16467aad3c8b3448753825e49a7d5ea6526d4555f41ca475eb539c466c3c2",
+    "manifest.json": "3e0db694a89d5116d5b0f199bb8095a34c01e77cdf88a37a659038366b4f5fef"
+  },
+  "environment_observed_on_import": {
+    "python": "3.10.22",
+    "numpy": "1.26.4",
+    "cyclonedds": "0.10.2",
+    "sdk_package_version": "1.0.1",
+    "sdk_commit_from_deployment_receipt": "814556d15970dd2ecf1c9984e845ca02ab07e206",
+    "sdk_checkout_independently_git_verified": false,
+    "fresh_environment_installation_tested": false
+  },
+  "files": [
+    {
+      "file": "as2_jump.py",
+      "sha256": "feb89fcbb3d4c1faadd8fe14d42f9427c6655fe622d2dd64caa16c2a03c784a3",
+      "original_sha256": "2f445abf100ecb78c932a8fa81767874d535a5e78db2d1fe08bdca7ab11894c7",
+      "comments_edited": true,
+      "bytes": 16726,
+      "snapshot_mtime": "2026-11-13 15:29:21.850151728 +0800"
+    },
+    {
+      "file": "evidence/jump-152659.json",
+      "sha256": "20e307cd1b70529bf3f6e8521c6b24907ef6db50b4da1e2521db301ecc967a14",
+      "original_sha256": "20e307cd1b70529bf3f6e8521c6b24907ef6db50b4da1e2521db301ecc967a14",
+      "comments_edited": false,
+      "bytes": 26330,
+      "snapshot_mtime": "2026-11-13 15:27:27.214006665 +0800"
+    },
+    {
+      "file": "src/as2_motion_imitation/__init__.py",
+      "sha256": "b879ef211e71f16006ec6c34469aa772f948d3caec3d01030586b34bb0b3c33e",
+      "original_sha256": "0d0fcb531a3bbc05b6310e9e19221aa899177b73db017f7ff76b232493826a9d",
+      "comments_edited": true,
+      "bytes": 87,
+      "snapshot_mtime": "2026-11-12 10:51:32.326500400 +0800"
+    },
+    {
+      "file": "src/as2_motion_imitation/deployment/__init__.py",
+      "sha256": "3f71388803f7d07c980fdd269060afd46fb0d656210e2a23affb65c6ed569205",
+      "original_sha256": "c778b18761ffb31d5260cb664ef786f90311599352edb5c314c90a8bb1d91f50",
+      "comments_edited": true,
+      "bytes": 71,
+      "snapshot_mtime": "2026-11-12 18:37:07.783512600 +0800"
+    },
+    {
+      "file": "src/as2_motion_imitation/deployment/runtime.py",
+      "sha256": "66962c02200d99a8b5a3cbd8c8e8d816afa2c2669e6b30f8d9078c1df19a52c0",
+      "original_sha256": "6b90f2fe6abd2b3feec9fcb2db15d9f3d7e6b0443b01201c88e3b8d3fddc7a8f",
+      "comments_edited": true,
+      "bytes": 8403,
+      "snapshot_mtime": "2026-11-12 19:23:17.976944200 +0800"
+    }
+  ]
+}

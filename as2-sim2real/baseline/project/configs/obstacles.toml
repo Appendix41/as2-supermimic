@@ -1,0 +1,9 @@
+# Warm-start from AS2 flat; new LiDAR input weights start at zero.
+[train]
+task = "As2-Chase-Obstacles"
+stage = "obstacles"
+iterations = 15000
+warmup_iterations = 1000
+actor_lr_scale = 0.3
+target_curriculum_iterations = 10000
+run_name = "as2-obstacles"

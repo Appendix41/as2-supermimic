@@ -1,0 +1,20 @@
+{
+  "scope": "AS2 physical backflip from settled standing, simulation only",
+  "minimum_airborne_seconds": 0.20,
+  "minimum_airborne_back_rotation_rad": 4.5,
+  "minimum_total_back_rotation_rad": 5.8,
+  "maximum_total_back_rotation_rad": 6.8,
+  "maximum_lateral_displacement_m": 0.20,
+  "minimum_lateral_axis_alignment": 0.80,
+  "maximum_joint_speed_rad_s": 30.0,
+  "maximum_final_tilt_rad": 0.15,
+  "final_stable_seconds": 2.0,
+  "final_max_speed_m_s": 0.05,
+  "final_max_angular_speed_rad_s": 0.15,
+  "final_max_height_error_m": 0.025,
+  "final_max_joint_error_rad": 0.12,
+  "nonfoot_ground_contacts": 0,
+  "joint_limit_violations": 0,
+  "external_forces": false,
+  "pose_writes_after_reset": false
+}

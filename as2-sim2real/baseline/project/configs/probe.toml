@@ -1,0 +1,18 @@
+# Bounded resource/learning-pipeline probe, NOT a skill/convergence recipe.
+[train]
+task = "As2-Chase-Flat"
+stage = "chase"
+num_envs = 256
+buffer_len = 400
+iterations = 120
+warmup_iterations = 40
+wm_batch = 256
+wm_updates = 2
+archive_size = 10000
+imag_batch = 512
+actor_ramp_iterations = 40
+compile = false
+log_interval = 10
+save_interval = 120
+save_initial = true
+run_name = "as2-resource-probe"

@@ -1,0 +1,55 @@
+{
+  "schema": "as2-single-jump-controller-v1",
+  "profile": "simulation-only",
+  "hardware_execution_enabled": false,
+  "description": "Synthetic integration fixture. Broad limits and identity calibration are NOT hardware ratings or deployment approval.",
+  "checkpoint_sha256": "c939893b8c0021f48a5952dcd94221e5c9a8455adc8b3ecc1c958773b8d66b38",
+  "robot_id": null,
+  "expected_service_name": null,
+  "expected_mode_machine": 1,
+  "calibration": {
+    "verified_on_robot": false,
+    "sdk_slots": [3, 4, 5, 0, 1, 2, 9, 10, 11, 6, 7, 8],
+    "joint_signs": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "joint_offsets_rad": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "policy_from_imu": [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+  },
+  "limits": {
+    "lower": [-5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5],
+    "upper": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+    "kp": [40, 40, 60, 40, 40, 60, 40, 40, 60, 40, 40, 60],
+    "takeover_kp": [40, 40, 60, 40, 40, 60, 40, 40, 60, 40, 40, 60],
+    "kd": [2, 2, 3, 2, 2, 3, 2, 2, 3, 2, 2, 3],
+    "stop_kd": [0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2],
+    "speed": [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50],
+    "target_rate": [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000],
+    "tracking_error": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+    "estimated_torque": [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000],
+    "predicted_torque": [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+  },
+  "safety": {
+    "feedback_ms": 40,
+    "board_ms": 150,
+    "loop_ms": 20,
+    "actor_ms": 15,
+    "tick_lateness_ms": 10,
+    "ramp_s": 1,
+    "warmup_s": 0.2,
+    "hold_s": 0.5,
+    "stop_s": 0.25,
+    "initial_error_rad": 0.1,
+    "initial_speed_rad_s": 0.2,
+    "tilt_rad": 0.8,
+    "temperature_max": 65,
+    "voltage_min": 38,
+    "voltage_max": 55
+  },
+  "acceptance": {
+    "joint_imu_calibration": {"verified": false, "evidence": null},
+    "actuator_envelope": {"verified": false, "evidence": null},
+    "lowlevel_external_stop": {"verified": false, "evidence": null},
+    "firmware_command_timeout": {"verified": false, "evidence": null},
+    "control_handoff": {"verified": false, "evidence": null},
+    "standing_takeover": {"verified": false, "evidence": null}
+  }
+}

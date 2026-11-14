@@ -1,0 +1,59 @@
+{
+  "schema": "as2-interface-documentation-v1",
+  "hardware_execution_enabled": false,
+  "source": {
+    "publisher": "Unitree",
+    "path": "AS2_SDK_Development_Guide/basic_service_interface",
+    "retrieved_date": "2026-11-12",
+    "page_sha256": "7d3be75d51adf6207f977973c38f5346a4698ff4e5afef3e8a799ed6a573ef16"
+  },
+  "policy_joint_order": [
+    "FL_hip_joint", "FL_thigh_joint", "FL_calf_joint",
+    "FR_hip_joint", "FR_thigh_joint", "FR_calf_joint",
+    "RL_hip_joint", "RL_thigh_joint", "RL_calf_joint",
+    "RR_hip_joint", "RR_thigh_joint", "RR_calf_joint"
+  ],
+  "documented_sdk_joint_order": [
+    "FR_BODY", "FR_THIGH", "FR_CALF",
+    "FL_BODY", "FL_THIGH", "FL_CALF",
+    "RR_BODY", "RR_THIGH", "RR_CALF",
+    "RL_BODY", "RL_THIGH", "RL_CALF"
+  ],
+  "documented_sdk_slot_for_each_policy_joint": [3, 4, 5, 0, 1, 2, 9, 10, 11, 6, 7, 8],
+  "documented_mapping_verified_on_this_robot": false,
+  "joint_signs_verified": false,
+  "joint_zero_offsets_rad": null,
+  "motor_limits_and_pd_gains_verified": false,
+  "low_state": {
+    "topic": "rt/lowstate",
+    "type": "unitree_hg::msg::dds_::LowState_",
+    "array_slots": 35,
+    "documented_as2_joint_slots": 12,
+    "quaternion_order_documented": "wxyz",
+    "tick_unit_documented": "1ms since Basic Service start",
+    "version_field_documented": "reserved, not firmware version"
+  },
+  "low_command_documentation_only": {
+    "topic": "rt/lowcmd",
+    "type": "unitree_hg::msg::dds_::LowCmd_",
+    "mode_machine": "must match lowstate, do not hardcode observed value",
+    "motor_mode_stop": 0,
+    "motor_mode_foc": 1,
+    "crc": "CRC32; serialization and verification not implemented in this release",
+    "unused_slots": "not verified for actuation",
+    "command_rate_and_watchdog": "not verified for actuation"
+  },
+  "motion_service": {
+    "documented_service_name": "ai_sports",
+    "must_be_released_for_low_level_control": true,
+    "released_by_this_task": false,
+    "automatic_release_allowed": false
+  },
+  "pose": {
+    "current_source": "SportModeState under existing built-in motion service",
+    "available_after_motion_service_release": "not a valid dependency; official AS2 FAQ says only low-level data remain",
+    "independent_pose_estimator_verified": false,
+    "retraining_required_if_no_reliable_pose": true
+  },
+  "note": "Documented indexing is not direction/zero-offset calibration. No program in this release sends commands."
+}

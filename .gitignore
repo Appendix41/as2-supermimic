@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+**/outputs/
+*.pt
+*.pth
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+wandb/
+checkpoints/*
+!checkpoints/README.md

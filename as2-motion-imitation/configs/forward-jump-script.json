@@ -1,0 +1,14 @@
+{
+  "crouch": 1.22122940821044,
+  "crouch_lean": 0.14907278804174423,
+  "crouch_front": 0.07529827593383262,
+  "extend": 0.5618945858301938,
+  "push_lean": 0.4,
+  "push_front": 0.10476151114170561,
+  "thrust_seconds": 0.16,
+  "extended_seconds": 0.16,
+  "flight_bend": 0.8362224433617306,
+  "flight_lean": -0.07649241441845334,
+  "flight_front": -0.10899781755828625,
+  "flight_seconds": 0.15449308017133145
+}

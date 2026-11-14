@@ -1,0 +1,17 @@
+# First skill stage. A training budget, not a convergence guarantee.
+[train]
+task = "As2-Chase-Flat"
+stage = "chase"
+num_envs = 256
+buffer_len = 400
+iterations = 20000
+warmup_iterations = 300
+wm_batch = 256
+wm_updates = 2
+archive_size = 10000
+imag_batch = 512
+compile = false
+target_curriculum_iterations = 15000
+log_interval = 50
+save_interval = 1000
+run_name = "as2-chase"

@@ -1,0 +1,189 @@
+{
+  "kind": "locally-generated-scripted-PD-physics",
+  "robot": "AS2",
+  "motion": "three-consecutive-forward-jumps-land-stand",
+  "upstream_motion": false,
+  "learned_policy": false,
+  "sequence": {
+    "count": 3,
+    "period_seconds": 2.8,
+    "tail_duration_seconds": 8.0,
+    "single_jump_parameters": "configs/forward-jump-script.json"
+  },
+  "single_jump_parameters": {
+    "crouch": 1.22122940821044,
+    "crouch_lean": 0.14907278804174423,
+    "crouch_front": 0.07529827593383262,
+    "extend": 0.5618945858301938,
+    "push_lean": 0.4,
+    "push_front": 0.10476151114170561,
+    "thrust_seconds": 0.16,
+    "extended_seconds": 0.16,
+    "flight_bend": 0.8362224433617306,
+    "flight_lean": -0.07649241441845334,
+    "flight_front": -0.10899781755828625,
+    "flight_seconds": 0.15449308017133145
+  },
+  "generator": "src/as2_motion_imitation/prepare_jump_sequence.py",
+  "source_sha256": {
+    "src/as2_motion_imitation/prepare_jump_sequence.py": "600a4bd3bf6c46f7a7141ba3e995fc2a78cb60f9ecf9a1055c9519063991bf72",
+    "src/as2_motion_imitation/prepare_jump.py": "fe01f8387022f14ae66575f71e0961ffbd36e451c57c758f6e277d502231c162",
+    "src/as2_motion_imitation/evaluate_jump.py": "56df8809d83999c75afae8a5af5201561a686b2b11903e3bf2504315faea9f6e",
+    "src/as2_motion_imitation/physics.py": "45416ece4484474bea610a80475e7d597b5ac4b007334f7ad2925508d70320b5",
+    "configs/triple-forward-jump-script.json": "1cd2b7ca490a474d874d74dcd5c2c96f3f82760fd83ba9ab38ef1a94a2e6ac72",
+    "configs/forward-jump-script.json": "e15594fcfc3b3cfcff403c912fa1eaf2deb5736fb745e3d1b72ae20bf55ec0a3",
+    "configs/triple-forward-jump-acceptance.json": "459f8cd604e3a62c5f7bde6fb5de2dd6dd0a330eec8729d9e972933b137c9407"
+  },
+  "seed": 0,
+  "settling_seconds": 3.0,
+  "duration_seconds": 13.6,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "diagnostic_hz": 500,
+  "pose_writes_after_reset": false,
+  "resets_between_jumps": false,
+  "concatenated_state_clips": false,
+  "external_forces": false,
+  "original_gains_mass_and_torque_limits": true,
+  "self_collision_enabled": false,
+  "physics_backend": "CPU MuJoCo",
+  "nominal_metrics": {
+    "passed": true,
+    "jump_count": 3,
+    "jumps": [
+      {
+        "number": 1,
+        "start_s": 2.0,
+        "last_airborne_s": 2.3259999999999996,
+        "landing_s": 2.328,
+        "duration_s": 0.3280000000000003,
+        "airborne_forward_m": 0.11909792657579582,
+        "height_gain_m": 0.22574985003715342,
+        "max_all_feet_clearance_m": 0.07287175832907447,
+        "landed": true,
+        "passed": true
+      },
+      {
+        "number": 2,
+        "start_s": 4.8,
+        "last_airborne_s": 5.128,
+        "landing_s": 5.13,
+        "duration_s": 0.3300000000000003,
+        "airborne_forward_m": 0.11611669299397798,
+        "height_gain_m": 0.22618314392309596,
+        "max_all_feet_clearance_m": 0.07449014691244907,
+        "landed": true,
+        "passed": true
+      },
+      {
+        "number": 3,
+        "start_s": 7.6,
+        "last_airborne_s": 7.928,
+        "landing_s": 7.93,
+        "duration_s": 0.3300000000000003,
+        "airborne_forward_m": 0.11633288945412901,
+        "height_gain_m": 0.22616191954090487,
+        "max_all_feet_clearance_m": 0.0743982323359638,
+        "landed": true,
+        "passed": true
+      }
+    ],
+    "all_flight_intervals": [
+      {
+        "start_s": 2.0,
+        "duration_s": 0.3280000000000003
+      },
+      {
+        "start_s": 4.8,
+        "duration_s": 0.3300000000000003
+      },
+      {
+        "start_s": 7.6,
+        "duration_s": 0.3300000000000003
+      }
+    ],
+    "interjump_ground_seconds": [
+      2.472,
+      2.4699999999999998
+    ],
+    "airborne_seconds": 0.9880000000000009,
+    "airborne_forward_m": 0.3515475090239028,
+    "final_forward_m": 0.7502084628318425,
+    "final_stable_seconds": 4.8100000000000005,
+    "height_start_m": 0.27204161478335365,
+    "height_max_m": 0.4982247587064496,
+    "height_final_m": 0.2704257548154183,
+    "max_tilt_rad": 0.3419344161487466,
+    "max_lateral_m": 0.017681094343232368,
+    "max_joint_speed_rad_s": 11.942194032098213,
+    "nonfoot_contact_samples": 0,
+    "joint_limit_samples": 0,
+    "torque_saturation_sample_fraction": 0.0,
+    "peak_abs_torque_nm": [
+      2.938120327342725,
+      2.985354087722042,
+      2.7540429310113663,
+      2.5335103212037957,
+      11.223571339875356,
+      11.106917993882202,
+      12.958266130926017,
+      13.199295839239326,
+      42.533971851626205,
+      41.9868149680602,
+      40.3732938553883,
+      40.00853517415571
+    ]
+  },
+  "max_abs_normalized_action": 2.7048433133584497,
+  "actuator_force_limits_nm": [
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ]
+  ],
+  "license_note": "Locally generated simulation data; model notices remain in baseline."
+}

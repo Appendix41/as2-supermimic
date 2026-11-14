@@ -1,0 +1,2452 @@
+{
+  "files": [
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/__init__.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/__init__.py",
+      "sha256": "b879ef211e71f16006ec6c34469aa772f948d3caec3d01030586b34bb0b3c33e",
+      "bytes": 87,
+      "kind": "source",
+      "source_sha256": "0d0fcb531a3bbc05b6310e9e19221aa899177b73db017f7ff76b232493826a9d",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "06f1f46b97ec5789beb6d88e0224098fcdc7ca95398ef299817cb67118d32e0a"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/backflip_audit.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/backflip_audit.py",
+      "sha256": "dafb49e519787f092517e2a6c3f86ed5a51181156f2e6b80e83f7123852366b2",
+      "bytes": 11665,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/demonstration.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/demonstration.py",
+      "sha256": "c3e1c60149f5b93096c3e949d6c686a9eb10d938c5420d5e027cc966122cca6b",
+      "bytes": 1505,
+      "kind": "source",
+      "source_sha256": "f5c2be27e57ad7949e03cdbc41205570bb465c48328be44b3b8e91969e865dde",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "52b467ece7f4ead2d4f7bd278ebbd0ccf2a3d2240b196844fef35d75c89b6fc5"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/deployment/__init__.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/deployment/__init__.py",
+      "sha256": "3f71388803f7d07c980fdd269060afd46fb0d656210e2a23affb65c6ed569205",
+      "bytes": 71,
+      "kind": "source",
+      "source_sha256": "c778b18761ffb31d5260cb664ef786f90311599352edb5c314c90a8bb1d91f50",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "4a8065493765c29973d6e9ae4f7f47b57da588d88e054966aed4d1d4ca4c2574"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/deployment/offline.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/deployment/offline.py",
+      "sha256": "d3b3a6694c87065ce1753c173f4ba15bc13f3c51f00cbef147a076e73d570d2c",
+      "bytes": 4544,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/deployment/runtime.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/deployment/runtime.py",
+      "sha256": "a81e62a483aedb7ebda48450fa499f0828e9b26e5202ff4858f35799769df836",
+      "bytes": 6476,
+      "kind": "source",
+      "source_sha256": "a7c2ddefa6907ab4d728e2bb9eac6ce37228208b65d0fd4aba0dce2a6b2ed6de",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "efef689d11581e67ad2fb16a3eff55f66800f6af4b3aff688cff64ec0c4e5a01"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/deployment/telemetry.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/deployment/telemetry.py",
+      "sha256": "a71d86583d3009bf710a4fe6a28410803f23563c075aaae4022ab23b71233d34",
+      "bytes": 7437,
+      "kind": "source",
+      "source_sha256": "088645af8ef911a3dfb6f56c9bf19cff56d7769e5591e92b944b831d280624a2",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "b4a1be8274d58b383c03e16e6260e0f0cfe94463a5dc2ac92a24a54b2fd4e355"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/evaluate.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/evaluate.py",
+      "sha256": "8ed8dcd66f9cca222238bfdfcfa764bad814399d78726d5e91a6d012ca70fd98",
+      "bytes": 7654,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/evaluate_backflip.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/evaluate_backflip.py",
+      "sha256": "b7764536820df5de6198caff609951fdafa212f86abe6decf3c03caeb0340c50",
+      "bytes": 931,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/evaluate_jump.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/evaluate_jump.py",
+      "sha256": "8329fb70a4dbbc198ff9233659ff13df57778f81ac10ab78a198a4436456b315",
+      "bytes": 8453,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/gpu_physics.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/gpu_physics.py",
+      "sha256": "3b3ff6c12e01bacf6efcdd2064ef01c198a3e44f265d4d50560a4d6f210be8be",
+      "bytes": 8501,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/learner.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/learner.py",
+      "sha256": "fdba24d0f9e3f855aa700c8c5e5be829790998b96815b65d8f89208eb6eb9e9f",
+      "bytes": 20138,
+      "kind": "source",
+      "source_sha256": "44155c42ca7fa395660deee0f52ef20a61136769414ee3d49e1d1de580d31078",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "1125126c756558a08eca7806b19b0dd70a0dec686bec1d67bbf3a00e48fe67d9"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/model_audit.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/model_audit.py",
+      "sha256": "a822409fb002884bca310a029798072d5e6965d3aa8a49009e2eb23e68675e7d",
+      "bytes": 4617,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/motion.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/motion.py",
+      "sha256": "aa29202195c6b01c7260ee76900e7761c418b733f67ce33b6ac3853f9767229c",
+      "bytes": 9871,
+      "kind": "source",
+      "source_sha256": "6ed02bcf4d19fd5391d7ebb86c6e1a10602c817fb92b38ec49fca0193e957be0",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "bea784e48dd64e9f6f11fc022fe5537eab6e2b9d4f9028cba90e3e5554db97b0"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/physics.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/physics.py",
+      "sha256": "8d25b115d54f31e04ff1bc9c1c8306e55297520f187854ba3f33b7292236f147",
+      "bytes": 7624,
+      "kind": "source",
+      "source_sha256": "b6ffc85cb049a7a072c83a0450bf16d27341bb23e297361d80e7daeb059888f3",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "9b67a2741e239ac88e6112565cedbf76d6e28f12f679d83ec1b679e080908e13"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/prepare.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/prepare.py",
+      "sha256": "01daa6b4dcf2640f2650d471530b6f412ebe5fd7ee520ecb4c7942cc5fd0831d",
+      "bytes": 3372,
+      "kind": "source",
+      "source_sha256": "1f4f1d5662ad06774d9db0ac2a661b1b0ff9b1968fb828c4e14f78b7945d4975",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "8854d61f90202b21a8491cdcbe1d6d4e1034078ee4ef0665affaab8dfbb1259a"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/prepare_backflip.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/prepare_backflip.py",
+      "sha256": "734e1652f362908734627f775872f3364ef42e46f3d3b46216ed77b032f184ec",
+      "bytes": 13199,
+      "kind": "source",
+      "source_sha256": "274adf78d8cb1750f9957a79972839e574379c5073d0baa8590ecc6317e24aaf",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "1f98098f7f3cdd64d2420baff221523ef6607b025566fc1e3e40abb167f0400c"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/prepare_jump.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/prepare_jump.py",
+      "sha256": "fe01f8387022f14ae66575f71e0961ffbd36e451c57c758f6e277d502231c162",
+      "bytes": 18416,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/prepare_jump_sequence.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/prepare_jump_sequence.py",
+      "sha256": "acc54d5f941b846bb0c5b25469b6ca45e2bc0c5a8c525d86820dfba8ec41a352",
+      "bytes": 13123,
+      "kind": "source",
+      "source_sha256": "600a4bd3bf6c46f7a7141ba3e995fc2a78cb60f9ecf9a1055c9519063991bf72",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "d26d15026d0d382099c06a71f8aa07990fe50b32d7f6f15997d8c925eda92fcd"
+    },
+    {
+      "source": "as2-motion-imitation/src/as2_motion_imitation/task.py",
+      "destination": "repository/as2-motion-imitation/src/as2_motion_imitation/task.py",
+      "sha256": "2759b9f8aacdd4e1f202dc5ab8298ac557eb490f7c648c9824beb37570c1c9bc",
+      "bytes": 6102,
+      "kind": "source",
+      "source_sha256": "34eb25a0f690d4162d7036979e675ef13189e184ee0e3f36fe70498cc940ab08",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "20213e3da6be71f91b037261f1934473cb6f567b4e339f71af2681c0cab8adb1"
+    },
+    {
+      "source": "as2-motion-imitation/configs/backflip-4096.toml",
+      "destination": "repository/as2-motion-imitation/configs/backflip-4096.toml",
+      "sha256": "b31e6c0d11a9b279c43cfd40f1e8edece5eef60c49524a8a61d93bb1a29a7718",
+      "bytes": 964,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/backflip-acceptance.json",
+      "destination": "repository/as2-motion-imitation/configs/backflip-acceptance.json",
+      "sha256": "01dfaa3ec97f3b009ff2f677a7b287bf3da4fa88f6e23ce0cdbc48ce94148009",
+      "bytes": 702,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/backflip-gpu-smoke.toml",
+      "destination": "repository/as2-motion-imitation/configs/backflip-gpu-smoke.toml",
+      "sha256": "4619ec98a49e62646daf60195125a067d184063f2443862d31e35bae0ee33899",
+      "bytes": 676,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/backflip-script.json",
+      "destination": "repository/as2-motion-imitation/configs/backflip-script.json",
+      "sha256": "1dbdf2753110a8092cd982ba7cce7b6075d9fcba966bfb134e5674df6a6eb2cd",
+      "bytes": 1022,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/crouch-acceptance.json",
+      "destination": "repository/as2-motion-imitation/configs/crouch-acceptance.json",
+      "sha256": "706c47ea397713108dcdd873921e41135092dc831f5535f36814efb22ef63e00",
+      "bytes": 614,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/crouch-probe.toml",
+      "destination": "repository/as2-motion-imitation/configs/crouch-probe.toml",
+      "sha256": "4fb91ade72b61042d6defae4b5a6d52c8c1374bc74107091973dc6ecf01c5a1a",
+      "bytes": 294,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/crouch-smoke.toml",
+      "destination": "repository/as2-motion-imitation/configs/crouch-smoke.toml",
+      "sha256": "e58d33463cd7c300ec7f6af6f224b142c3458471addf5640c7741f9f8833e9ff",
+      "bytes": 269,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/forward-jump-4096.toml",
+      "destination": "repository/as2-motion-imitation/configs/forward-jump-4096.toml",
+      "sha256": "7af46df48502265478eaf349ec8db8b360d22ab337c0cbcd3b0deb64c003300c",
+      "bytes": 859,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/forward-jump-acceptance.json",
+      "destination": "repository/as2-motion-imitation/configs/forward-jump-acceptance.json",
+      "sha256": "8737de80769621cbab83505b3049d6e87ac1664664127edd278e664d94236c19",
+      "bytes": 623,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/forward-jump-gpu-smoke.toml",
+      "destination": "repository/as2-motion-imitation/configs/forward-jump-gpu-smoke.toml",
+      "sha256": "63cb9bd94fcc41a95c8642d208d95003ffc14ca41abce584c889909c83708ac8",
+      "bytes": 609,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/forward-jump-script.json",
+      "destination": "repository/as2-motion-imitation/configs/forward-jump-script.json",
+      "sha256": "e15594fcfc3b3cfcff403c912fa1eaf2deb5736fb745e3d1b72ae20bf55ec0a3",
+      "bytes": 410,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/triple-forward-jump-4096.toml",
+      "destination": "repository/as2-motion-imitation/configs/triple-forward-jump-4096.toml",
+      "sha256": "a6cf8901bb70268dc2ed1be9e4566d718a2bdd804065a0d9f309abecb6a28292",
+      "bytes": 1025,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/triple-forward-jump-acceptance.json",
+      "destination": "repository/as2-motion-imitation/configs/triple-forward-jump-acceptance.json",
+      "sha256": "459f8cd604e3a62c5f7bde6fb5de2dd6dd0a330eec8729d9e972933b137c9407",
+      "bytes": 832,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/configs/triple-forward-jump-script.json",
+      "destination": "repository/as2-motion-imitation/configs/triple-forward-jump-script.json",
+      "sha256": "1cd2b7ca490a474d874d74dcd5c2c96f3f82760fd83ba9ab38ef1a94a2e6ac72",
+      "bytes": 138,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_backflip.json",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_backflip.json",
+      "sha256": "b372432d9ef1c1cbc18a87e7aa952845b0ef56ebc02bae2efd39d6e2f047214d",
+      "bytes": 6012,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_backflip.npz",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_backflip.npz",
+      "sha256": "33f3524fb95687e6c16948deba218264a5bf11afa552da8b5f4f31941f5d5f57",
+      "bytes": 413495,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_crouch.json",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_crouch.json",
+      "sha256": "96550cd984df5dc52ab706af25b6826ddfe25266bc0a6db444099c2af683639a",
+      "bytes": 2269,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_crouch.npz",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_crouch.npz",
+      "sha256": "5307a6b69224dd89fadc2d7d3de6c93581149397d600ec1547aace2a0b1fcdcd",
+      "bytes": 349213,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_forward_jump.json",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_forward_jump.json",
+      "sha256": "cd744c22a7f084a85380d6d6b45a19e5a5344104121753b8aac916fc1f4e1741",
+      "bytes": 5673,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_forward_jump.npz",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_forward_jump.npz",
+      "sha256": "75ef2084372ec058067ef30d7f8f7ead8c9a65046a346e4f511de7bffe968f6b",
+      "bytes": 353424,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_stand.json",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_stand.json",
+      "sha256": "348a8894a6a2bc22d95025547ea04ae76e29ae86256a214eabf5c4ba78cd7926",
+      "bytes": 2236,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_stand.npz",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_stand.npz",
+      "sha256": "aed622858cde7e78d79ae762da2eeb3d984007426c39dd586a63c44f0e6e6cdb",
+      "bytes": 3659,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_triple_forward_jump.json",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_triple_forward_jump.json",
+      "sha256": "80593d970f9d1654fef5faabafb76d61c40e14569004e57bae37ec06af0b91c3",
+      "bytes": 7304,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/processed/as2_triple_forward_jump.npz",
+      "destination": "repository/as2-motion-imitation/data/processed/as2_triple_forward_jump.npz",
+      "sha256": "0a2ca9abce71b7b5ff4bd3b4b3a947d8f5325a0a18619c56e246e9d158718368",
+      "bytes": 604897,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-motion-imitation/data/raw/as2-native-backflip/physics_capture.npz",
+      "destination": "repository/as2-motion-imitation/data/raw/as2-native-backflip/physics_capture.npz",
+      "sha256": "e717d4198c6fd54faa16f95ded74ab63c8aa629a0daa9fc849ea6c15bee61ca3",
+      "bytes": 418038,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-motion-imitation/data/raw/as2-native-backflip/provenance.json",
+      "destination": "repository/as2-motion-imitation/data/raw/as2-native-backflip/provenance.json",
+      "sha256": "c7e35ba1f327ea3ebf6f4b964a92250c545265791c91a57748ae98f7990ef67b",
+      "bytes": 3950,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-motion-imitation/data/raw/as2-native-crouch/physics_capture.npz",
+      "destination": "repository/as2-motion-imitation/data/raw/as2-native-crouch/physics_capture.npz",
+      "sha256": "6385d8ab079bdb63f5da33739a984d79f4b948dfaf756e794740727ea2495c82",
+      "bytes": 350306,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-motion-imitation/data/raw/as2-native-crouch/provenance.json",
+      "destination": "repository/as2-motion-imitation/data/raw/as2-native-crouch/provenance.json",
+      "sha256": "b8d73b2ae12a4b585693e3c9a6d13e2f3672110d0da0c33a1ab66c2574c2971a",
+      "bytes": 487,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-motion-imitation/data/raw/as2-native-forward-jump/physics_capture.npz",
+      "destination": "repository/as2-motion-imitation/data/raw/as2-native-forward-jump/physics_capture.npz",
+      "sha256": "c0316beca01312dc84446f5e446784794f3491ce7604ef0042f61f3494883193",
+      "bytes": 357128,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-motion-imitation/data/raw/as2-native-forward-jump/provenance.json",
+      "destination": "repository/as2-motion-imitation/data/raw/as2-native-forward-jump/provenance.json",
+      "sha256": "14e4575e39e539e97b95b7f94c46094d9364754aab008c48f632e83acc2a5a9c",
+      "bytes": 3631,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-motion-imitation/data/raw/as2-native-triple-forward-jump/physics_capture.npz",
+      "destination": "repository/as2-motion-imitation/data/raw/as2-native-triple-forward-jump/physics_capture.npz",
+      "sha256": "c199bea1b3a56fd57be2c7ebc7a6ccd7201a3c63140babba6bb786ff463309e5",
+      "bytes": 610650,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-motion-imitation/data/raw/as2-native-triple-forward-jump/provenance.json",
+      "destination": "repository/as2-motion-imitation/data/raw/as2-native-triple-forward-jump/provenance.json",
+      "sha256": "48398e516ebf44b969052c19299b6378ea871081bfb729567f6daf52c2c1c017",
+      "bytes": 5176,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/__init__.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/__init__.py",
+      "sha256": "5dacada1aa52f3326287acb10d35067af86f3f0ea6c3ca0135d3d0c42ae0f7ec",
+      "bytes": 66,
+      "kind": "baseline",
+      "source_sha256": "a179b047afbf0681d560b4f73f3ee99b255b18a7765483e8dd3e10d4243a2e2e",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "4a8065493765c29973d6e9ae4f7f47b57da588d88e054966aed4d1d4ca4c2574"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/checkpoints.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/checkpoints.py",
+      "sha256": "e1b56b86bf12fa35ae9f93f5ceaea44b513c98a12d612a773225c3eaa0c74dd3",
+      "bytes": 1623,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/curriculum.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/curriculum.py",
+      "sha256": "c7af03ff20f3b40b6cbfedd4927d38ef3ce32d77567485ac86c7489254d344c7",
+      "bytes": 1979,
+      "kind": "baseline",
+      "source_sha256": "03b65921814d0a0d15c46110860d41f231af1442be5d27e000aa90efe8fbfc5e",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "286bbe33db2fa125bd7018d75018004e7f9e351ae31e3d48ba3e05242560d88f"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/env/__init__.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/env/__init__.py",
+      "sha256": "a8f8ea9867cd7e4b4bec502941319f36618326de3925b194534de4b9eaf151ff",
+      "bytes": 605,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/env/command.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/env/command.py",
+      "sha256": "cdebb954456f0e2a03b9dc2aa7c04abaeaa8949bedf27161e738c444030d208a",
+      "bytes": 13493,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/env/env_cfg.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/env/env_cfg.py",
+      "sha256": "531cabfd0278f61fc68513bad98b2a9ca27fd92a7047491bbeefa2e29d235840",
+      "bytes": 10870,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/env/mdp.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/env/mdp.py",
+      "sha256": "cf4952048f1d555604f73d54b4b28d05de781457178b4590d17e8f3472924fcb",
+      "bytes": 7503,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/env/terrains.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/env/terrains.py",
+      "sha256": "3599d1aeb9388372da401530ad7b623baf0eb8bd7d188781e1f5fd9370f4b2c8",
+      "bytes": 2959,
+      "kind": "baseline",
+      "source_sha256": "652806324d931056dbaa405d79e7a58c056e9d007df2ada7790ff2601b9d9295",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "28917e68b654fceb6d57b88dbf0c710c2083e17d302f18107887c4a46df11d2a"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/paths.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/paths.py",
+      "sha256": "34c4d82752f31597f06c682f55cb88be090ee55a8c0634fad0626fe9e45dfc23",
+      "bytes": 265,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/__init__.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/__init__.py",
+      "sha256": "c5e043a5d17892380096844bec6d5e0d96ef34e564dbf0ba8999c65c10512cae",
+      "bytes": 61,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/as2.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/as2.py",
+      "sha256": "3eec2cbf2d26418403c0ee7d960329ad5628d271c845415f4b7c5d8318197a27",
+      "bytes": 2170,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/as2.xml",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/as2.xml",
+      "sha256": "bdfe2c6dc4c0f29aaf51992cdc7c40c7302f4e2e04305a71ee061b04216e55c8",
+      "bytes": 12853,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_calf.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_calf.STL",
+      "sha256": "f54d50478562a3ff5fc1ab5d6d0a8a88daad2e9ce51ded4b4da09d289ece023b",
+      "bytes": 1712684,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_foot.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_foot.STL",
+      "sha256": "9895cf0abdca2cde395327ab9b49b2da07af3e1dad1e52a2ef36b66f254b117c",
+      "bytes": 2965884,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_hip.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_hip.STL",
+      "sha256": "1ad48fb81fd30426831ec8ae46ee952415ae3e80916be73641fcacdf8bf0c34b",
+      "bytes": 3495584,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_thigh.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_thigh.STL",
+      "sha256": "0e147268b0335b37276261538bf0e37e974a4fa5d986c8b70cd659377fb7aa1a",
+      "bytes": 3610484,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_calf.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_calf.STL",
+      "sha256": "f54d50478562a3ff5fc1ab5d6d0a8a88daad2e9ce51ded4b4da09d289ece023b",
+      "bytes": 1712684,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_foot.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_foot.STL",
+      "sha256": "9895cf0abdca2cde395327ab9b49b2da07af3e1dad1e52a2ef36b66f254b117c",
+      "bytes": 2965884,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_hip.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_hip.STL",
+      "sha256": "1dbf34bc4d38569184635d3d4e784f43aa432f709f399ffe3516c361758fb65b",
+      "bytes": 3500484,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_thigh.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_thigh.STL",
+      "sha256": "3460a1c28e8a965cafdb085402cc755af9edc4318677507e0f85793c7ad52f09",
+      "bytes": 3604384,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_calf.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_calf.STL",
+      "sha256": "f54d50478562a3ff5fc1ab5d6d0a8a88daad2e9ce51ded4b4da09d289ece023b",
+      "bytes": 1712684,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_foot.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_foot.STL",
+      "sha256": "9895cf0abdca2cde395327ab9b49b2da07af3e1dad1e52a2ef36b66f254b117c",
+      "bytes": 2965884,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_hip.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_hip.STL",
+      "sha256": "1ad48fb81fd30426831ec8ae46ee952415ae3e80916be73641fcacdf8bf0c34b",
+      "bytes": 3495584,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_thigh.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_thigh.STL",
+      "sha256": "0e147268b0335b37276261538bf0e37e974a4fa5d986c8b70cd659377fb7aa1a",
+      "bytes": 3610484,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_calf.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_calf.STL",
+      "sha256": "3950407cd9449e5b737101f065ba65caf1b26d7ede58c687602b0fae573ff620",
+      "bytes": 1719084,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_foot.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_foot.STL",
+      "sha256": "19002323a262c701553d5afbbc75b0194339482a61c958e38df7f44cef72644a",
+      "bytes": 2880184,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_hip.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_hip.STL",
+      "sha256": "d1a0bfd69a348e8101989980449af99ed4055abc1924b2b69ef041cee9d8f916",
+      "bytes": 3502584,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_thigh.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_thigh.STL",
+      "sha256": "c5e541cfde796abd6da54da6b8cca4d1e41a0208440c1fe133a4f2b8e320624d",
+      "bytes": 3598484,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/base_link.STL",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/base_link.STL",
+      "sha256": "ec787cbc413809f70144136d96fd5ede583baeae0270f2730d88e59b2925f9b5",
+      "bytes": 7225384,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/robot/morphology.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/robot/morphology.py",
+      "sha256": "80fe6b8c1bf785a7eeb8e50a8bb0792081f15b568261a66e35190d79e70dd88a",
+      "bytes": 1185,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/__init__.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/__init__.py",
+      "sha256": "e758f4a0e2b1975fb586f81ff1f082a07412fed6d024db6b2bcf5735cff37953",
+      "bytes": 74,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/buffer.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/buffer.py",
+      "sha256": "9eade4227e81b0e291d126088d0690399471e6fad8c5855faa9ead4e323654a1",
+      "bytes": 4613,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/driver.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/driver.py",
+      "sha256": "2b70282c9e7f121d1af7a0f61a144872ae2a07fd2dd54c86d45dd9a817f3b405",
+      "bytes": 921,
+      "kind": "baseline",
+      "source_sha256": "1fc8fdc1803fc68f48ea471d7105067e6dce7848dfaf878b84aec2e7b00def4f",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "3cbd1a3020e940a2df905aeb5365e2bfc7d5370a9f5ae4fdc7636a1c8d2da395"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/imagine.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/imagine.py",
+      "sha256": "1c5a6bb753e724fdc6f3079b06da7fc4b3192b5523c6fc6d7d3843681a4ebf38",
+      "bytes": 12724,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/state.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/state.py",
+      "sha256": "b251e48d658f99d653e41828b282ea16a3043388f9929d509db66c010ccba839",
+      "bytes": 9852,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/train.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/train.py",
+      "sha256": "07f3bec5be1793b533e6e75e96f665211e1bfd33be5a767fc407ccfa0f2576c1",
+      "bytes": 31303,
+      "kind": "baseline",
+      "source_sha256": "9b5e41960db831832e4d1a17642608a0c21f9cdd312e3d7b244ec089131fb0d0",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "ffb8a649ca00cc1270dda62fe386ac4aa0577b00ea7d3746fab40a6d5db0ae48"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/world_model.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/supermimic/world_model.py",
+      "sha256": "72d879516216f1036331858bff47e20b29e7dc6cd7b71fc5d4f5466a53c2e783",
+      "bytes": 3922,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/target/__init__.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/target/__init__.py",
+      "sha256": "33cd59f81bec227820332b04f1e6bd3140af104b6782b8129458461d86b96019",
+      "bytes": 89,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/target/collision.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/target/collision.py",
+      "sha256": "cc85f10fee52e9f7728b72b8ff8730113d123f7aaa12c1ffb7a2f97fb8423bfe",
+      "bytes": 8915,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/target/generator.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/target/generator.py",
+      "sha256": "37e385aa1936efde114d74d58351355fe565b8fe7a5d688dd9782ffccf67d2e8",
+      "bytes": 28587,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/target/interface.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/target/interface.py",
+      "sha256": "14610cc616ceabcaf9109b7ee0b483e838606f8f4c7021ac2c57499d30335373",
+      "bytes": 3527,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/target/obstacles.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/target/obstacles.py",
+      "sha256": "ab1cb9f5685bd79b7a74ed6356e369cfb35dd5852862576c69d1be1a13058257",
+      "bytes": 6903,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/target/terrain.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/target/terrain.py",
+      "sha256": "88f8b5ee9aa9d0dfbaf07af8ab7d74271da3617c92c7717770d602ceb09a7587",
+      "bytes": 6574,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/src/as2_supermimic/viz.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/src/as2_supermimic/viz.py",
+      "sha256": "2c669c242c86f87db3fb877d90ca601c3d81f53e35ecdb933c6f941df6757a12",
+      "bytes": 12206,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/configs/chase.toml",
+      "destination": "repository/as2-motion-imitation/baseline/project/configs/chase.toml",
+      "sha256": "6dfef3ac42a0c3cea9fc5463ac897fd23473657596926511d51a8cbe6ebb174d",
+      "bytes": 375,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/configs/dodge-balls.toml",
+      "destination": "repository/as2-motion-imitation/baseline/project/configs/dodge-balls.toml",
+      "sha256": "7b3256ab7f9c9327f934c2a9bce62f5961f3ab29c0b9fd68919f01edc640fa10",
+      "bytes": 259,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/configs/dodge-bars.toml",
+      "destination": "repository/as2-motion-imitation/baseline/project/configs/dodge-bars.toml",
+      "sha256": "7e7d2353963f7e8411ffa949f1580829b75c239da707589c42926279309822bd",
+      "bytes": 228,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/configs/obstacles.toml",
+      "destination": "repository/as2-motion-imitation/baseline/project/configs/obstacles.toml",
+      "sha256": "7954de969845029a6a1a962c5fc932083c849e30742f5d93c29daa7f6aba970a",
+      "bytes": 253,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/configs/probe.toml",
+      "destination": "repository/as2-motion-imitation/baseline/project/configs/probe.toml",
+      "sha256": "b7beb4858bb658566920247271f9480c57c8b55d7dcfe62ad7a64226e79ed3c7",
+      "bytes": 397,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/configs/smoke.toml",
+      "destination": "repository/as2-motion-imitation/baseline/project/configs/smoke.toml",
+      "sha256": "4598eddd77bef7cb8ee7006d5e40ab25d9cd661e8126354127564edc73317e4b",
+      "bytes": 431,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/configs/terrain.toml",
+      "destination": "repository/as2-motion-imitation/baseline/project/configs/terrain.toml",
+      "sha256": "f784d2ad852b0dee32f607bc3b4df99ee19dba80ace35f14046dce90a6cde616",
+      "bytes": 304,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/tests/test_as2_curriculum.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/tests/test_as2_curriculum.py",
+      "sha256": "9d12b0120e4768cf5ab4f42322cc526a138256f3393e0524a95321f180271ac0",
+      "bytes": 1196,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/tests/test_as2_learning.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/tests/test_as2_learning.py",
+      "sha256": "fae1781e79ce80952b3bcb280662b1c6032ba2da852b1556b3ae7c8e835857db",
+      "bytes": 3139,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/tests/test_as2_model.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/tests/test_as2_model.py",
+      "sha256": "7544d68de6e5633458d84b8fd53f79ff31d4d51290b05fa03e75fa98c88ec4c6",
+      "bytes": 6216,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/tests/upstream/test_obstacles.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/tests/upstream/test_obstacles.py",
+      "sha256": "b65472162f67a857d3c2cdcd5efcc3d94b6d7825da6b9c6eca2184c7a03b1a77",
+      "bytes": 6073,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/tests/upstream/test_target.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/tests/upstream/test_target.py",
+      "sha256": "fdc59da5b01cade47303a0f012188840f395d11c0234ec5ce88ba4dc153541e2",
+      "bytes": 13694,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/tests/upstream/test_terrain.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/tests/upstream/test_terrain.py",
+      "sha256": "f45e54c253c6d7e818f59830855968648e975bb0b6b432b5280cccad39d48203",
+      "bytes": 4762,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/third_party/go2-supermimic/LICENSE",
+      "destination": "repository/as2-motion-imitation/baseline/project/third_party/go2-supermimic/LICENSE",
+      "sha256": "74bf77852bebd2733a186f3fb25cd6cff7f22820d1be6ff5c3510b4cad6a35b8",
+      "bytes": 1068,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/third_party/go2-supermimic/port-manifest.json",
+      "destination": "repository/as2-motion-imitation/baseline/project/third_party/go2-supermimic/port-manifest.json",
+      "sha256": "b033b429376423ae9d1d8c0e1939a8c1bcb96b006e9ca298bd4c9046fa300830",
+      "bytes": 11580,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/third_party/unitree_rl_mjlab/LICENCE",
+      "destination": "repository/as2-motion-imitation/baseline/project/third_party/unitree_rl_mjlab/LICENCE",
+      "sha256": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28",
+      "bytes": 11362,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/third_party/unitree_rl_mjlab/as2_constants.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/third_party/unitree_rl_mjlab/as2_constants.py",
+      "sha256": "4e0099a1b3557e049fe2f5679e22bf3f64c061ae0d26c329fb029ef3e78c87e7",
+      "bytes": 3024,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/third_party/unitree_rl_mjlab/manifest.json",
+      "destination": "repository/as2-motion-imitation/baseline/project/third_party/unitree_rl_mjlab/manifest.json",
+      "sha256": "a77d83d3f82142efbaf5cbd1fd05888a5e47802c979c4bb8e52f9d61274a05e0",
+      "bytes": 9396,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/third_party/unitree_rl_mjlab/velocity_env_cfg.py",
+      "destination": "repository/as2-motion-imitation/baseline/project/third_party/unitree_rl_mjlab/velocity_env_cfg.py",
+      "sha256": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3",
+      "bytes": 11789,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/pyproject.toml",
+      "destination": "repository/as2-motion-imitation/baseline/project/pyproject.toml",
+      "sha256": "79253ed1b331d0e58edfc286c37ec183e0d76e3a988fbb8d787740046cb4ecf7",
+      "bytes": 733,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/baseline/project/THIRD_PARTY_NOTICES.md",
+      "destination": "repository/as2-motion-imitation/baseline/project/THIRD_PARTY_NOTICES.md",
+      "sha256": "11adb767e30754b8ae62a8638d5cb66961e147f68d2cc2256259795971166a23",
+      "bytes": 1719,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-motion-imitation/scripts/audit_backflip_evaluation.py",
+      "destination": "repository/as2-motion-imitation/scripts/audit_backflip_evaluation.py",
+      "sha256": "75a0d23011d83a9288edbbbc96ae67d1743bec02b7b7c98a1e628acd86ae94d7",
+      "bytes": 4602,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/scripts/audit_reference.py",
+      "destination": "repository/as2-motion-imitation/scripts/audit_reference.py",
+      "sha256": "175478674f73371cbfcd1a85ed697876a4354c51fc7e34dfc4f84ce2a8592a4f",
+      "bytes": 3564,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/scripts/audit_sequence_evaluation.py",
+      "destination": "repository/as2-motion-imitation/scripts/audit_sequence_evaluation.py",
+      "sha256": "50271d26065526d3c36b9785ac8fe77d7ba5c7c147fdd18bd820f59f10a38835",
+      "bytes": 4333,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/scripts/bootstrap_orin_readonly_sdk.py",
+      "destination": "repository/as2-motion-imitation/scripts/bootstrap_orin_readonly_sdk.py",
+      "sha256": "73fc135c2a06b534cdbd8412d50780e05fb768dcf6a677fd095d10801b94e21c",
+      "bytes": 3421,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/scripts/diagnose_jump_checkpoint.py",
+      "destination": "repository/as2-motion-imitation/scripts/diagnose_jump_checkpoint.py",
+      "sha256": "86f08c09e42efacf711756ac5f2b901a7c00a37ad234f2d0e0c7401e319273b2",
+      "bytes": 6572,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/scripts/diagnose_model.py",
+      "destination": "repository/as2-motion-imitation/scripts/diagnose_model.py",
+      "sha256": "58cc4dda17faedb93249cec3cbe102d79b0d701d5b8ffe41aa823fe4462a3a52",
+      "bytes": 3277,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/scripts/plot_jump_training.py",
+      "destination": "repository/as2-motion-imitation/scripts/plot_jump_training.py",
+      "sha256": "2e5fe0b225e3f20b1222aeef533d8d5f1a3d8638ebf738ab602b35f64a16af34",
+      "bytes": 3057,
+      "kind": "source"
+    },
+    {
+      "source": "as2-motion-imitation/scripts/probe_gpu_physics.py",
+      "destination": "repository/as2-motion-imitation/scripts/probe_gpu_physics.py",
+      "sha256": "cae13efec4aa1a3be24447401214990f4914b9528f5e6d12e652cc87214a83f4",
+      "bytes": 3585,
+      "kind": "source",
+      "source_sha256": "3f648d66b85649e955a66d1bec6a6b2aa1a8aafcfc94d5a3771c8dd613167c17",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "9d20d07d3bfca8ad9637208359fcf237430a2cfb27b3c2cf70d95fc5758dfdd1"
+    },
+    {
+      "source": "as2-motion-imitation/tests/test_backflip.py",
+      "destination": "repository/as2-motion-imitation/tests/test_backflip.py",
+      "sha256": "4cdaaaf291103a4503dac0aa302065a582ed2661cbac3d97c57da71cc60ecffe",
+      "bytes": 10154,
+      "kind": "test"
+    },
+    {
+      "source": "as2-motion-imitation/tests/test_gpu_training.py",
+      "destination": "repository/as2-motion-imitation/tests/test_gpu_training.py",
+      "sha256": "9695424e5fda3af14ebcafd31ed8e2225df15415a0a80bd7ecef47d9b1b81110",
+      "bytes": 5613,
+      "kind": "test"
+    },
+    {
+      "source": "as2-motion-imitation/tests/test_jump.py",
+      "destination": "repository/as2-motion-imitation/tests/test_jump.py",
+      "sha256": "a0dbbe60948c73fbc541bda136958d122b8517501f6351183a8b8565d246f0fc",
+      "bytes": 4268,
+      "kind": "test"
+    },
+    {
+      "source": "as2-motion-imitation/tests/test_jump_sequence.py",
+      "destination": "repository/as2-motion-imitation/tests/test_jump_sequence.py",
+      "sha256": "2cc91899c89c3354d1893348fcf98e6a82c700e7948b986f7840ccf8bcbdd4c5",
+      "bytes": 6739,
+      "kind": "test"
+    },
+    {
+      "source": "as2-motion-imitation/tests/test_motion.py",
+      "destination": "repository/as2-motion-imitation/tests/test_motion.py",
+      "sha256": "cbe311efc0b734bce590c4e25a4f25936958900b14479697cae70b79a9592911",
+      "bytes": 8335,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/__init__.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/__init__.py",
+      "sha256": "b879ef211e71f16006ec6c34469aa772f948d3caec3d01030586b34bb0b3c33e",
+      "bytes": 87,
+      "kind": "source",
+      "source_sha256": "0d0fcb531a3bbc05b6310e9e19221aa899177b73db017f7ff76b232493826a9d",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "06f1f46b97ec5789beb6d88e0224098fcdc7ca95398ef299817cb67118d32e0a"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/backflip_audit.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/backflip_audit.py",
+      "sha256": "dafb49e519787f092517e2a6c3f86ed5a51181156f2e6b80e83f7123852366b2",
+      "bytes": 11665,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/demonstration.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/demonstration.py",
+      "sha256": "c3e1c60149f5b93096c3e949d6c686a9eb10d938c5420d5e027cc966122cca6b",
+      "bytes": 1505,
+      "kind": "source",
+      "source_sha256": "f5c2be27e57ad7949e03cdbc41205570bb465c48328be44b3b8e91969e865dde",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "52b467ece7f4ead2d4f7bd278ebbd0ccf2a3d2240b196844fef35d75c89b6fc5"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/__init__.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/__init__.py",
+      "sha256": "3f71388803f7d07c980fdd269060afd46fb0d656210e2a23affb65c6ed569205",
+      "bytes": 71,
+      "kind": "source",
+      "source_sha256": "c778b18761ffb31d5260cb664ef786f90311599352edb5c314c90a8bb1d91f50",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "4a8065493765c29973d6e9ae4f7f47b57da588d88e054966aed4d1d4ca4c2574"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/bench_control.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/bench_control.py",
+      "sha256": "751c2ba698a05bf01bd1501a366f9a05ea06e7b4d417a5b6130661aee8baa57b",
+      "bytes": 8938,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/control_selftest.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/control_selftest.py",
+      "sha256": "bec8692324931fe95f9e5f00de1de52ad1d6ca39ed1f8743f091067d7eeb8d31",
+      "bytes": 9083,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/controller.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/controller.py",
+      "sha256": "89e14331da15481b43faf1738d90e6f402e3745018cac173a3aa877223fa5d68",
+      "bytes": 22961,
+      "kind": "source",
+      "source_sha256": "a8e2d8f2eb88f5306a42f9dffa40b04b7e8706493be617432bae7b5dca2577db",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "e59c204274e76f7e4081b78f01ef237d5db86029bfc793b18006aacdbcf03e12"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/controller_run.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/controller_run.py",
+      "sha256": "bc43b9f922a8fb9ff96355d13135d16701301a81039d18f8d0ca3b101dd0952f",
+      "bytes": 12554,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/controller_selftest.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/controller_selftest.py",
+      "sha256": "c7aca058d4c612ca146bfaed8b26af33e3e1825eb590aabd890f2440db6e54ee",
+      "bytes": 6221,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/controller_transport.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/controller_transport.py",
+      "sha256": "66ef18d23320277e244a399e7e31af2e2f2caa68f774ff842b8048d916779f74",
+      "bytes": 6807,
+      "kind": "source",
+      "source_sha256": "41a353b866985869d2e8cb8b9427cf3164347327f73987aed0ba2718709ccc20",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "dbbfcf8e1e1da92a34891e3b91aa542e03316f613e969aa4bae77f385c290721"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/controller_worker.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/controller_worker.py",
+      "sha256": "d4d0ad1d3c5e5a761c0d40096061edd37b8f60e3d694163fd4b139341b8f3ec6",
+      "bytes": 3496,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/feedback_crc.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/feedback_crc.py",
+      "sha256": "daf06b7439ee0ef300312898d2fc56b71da03328149c58fd4561b44927a434c7",
+      "bytes": 3953,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/offline.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/offline.py",
+      "sha256": "c713b5f43067c5971dd5940789162962cc24c18c6d8432895a12d8c0ec57d3af",
+      "bytes": 4468,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/readiness.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/readiness.py",
+      "sha256": "8957e0e216bc424639a147a919f9c0634bbfe6e75713e1280a8aa13afdf3d821",
+      "bytes": 9892,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/remote_stop.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/remote_stop.py",
+      "sha256": "3f3c2d114b8b403d56040436a96ced9bbd016ab3e2ce99f18067fce888946b2a",
+      "bytes": 10632,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/runtime.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/runtime.py",
+      "sha256": "66962c02200d99a8b5a3cbd8c8e8d816afa2c2669e6b30f8d9078c1df19a52c0",
+      "bytes": 8403,
+      "kind": "source",
+      "source_sha256": "6b90f2fe6abd2b3feec9fcb2db15d9f3d7e6b0443b01201c88e3b8d3fddc7a8f",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "db0385b965ed1e576e68e4d9158551391e925fc5abdb0296074e21ea1b14055e"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/deployment/telemetry.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/deployment/telemetry.py",
+      "sha256": "a71d86583d3009bf710a4fe6a28410803f23563c075aaae4022ab23b71233d34",
+      "bytes": 7437,
+      "kind": "source",
+      "source_sha256": "088645af8ef911a3dfb6f56c9bf19cff56d7769e5591e92b944b831d280624a2",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "b4a1be8274d58b383c03e16e6260e0f0cfe94463a5dc2ac92a24a54b2fd4e355"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/evaluate.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/evaluate.py",
+      "sha256": "8ed8dcd66f9cca222238bfdfcfa764bad814399d78726d5e91a6d012ca70fd98",
+      "bytes": 7654,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/evaluate_backflip.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/evaluate_backflip.py",
+      "sha256": "b7764536820df5de6198caff609951fdafa212f86abe6decf3c03caeb0340c50",
+      "bytes": 931,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/evaluate_jump.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/evaluate_jump.py",
+      "sha256": "16953062656777c57f0e5efd6440365e8157931be45b5e0318cc4a4514aa889e",
+      "bytes": 10630,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/gpu_physics.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/gpu_physics.py",
+      "sha256": "524da8d3e782a9ad9aff548d4cb0eb5c1206af6f5f05bdffc71a66070729cdae",
+      "bytes": 8630,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/learner.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/learner.py",
+      "sha256": "b0ae624a46f9e01151d9e350d19caa15ec3eb6fdb206720e0898a8bc7afcc3f8",
+      "bytes": 20745,
+      "kind": "source",
+      "source_sha256": "d9092108f7ac4541aa95315bd3528fb56242eb2b375d0e51787a90f0c6fedc7e",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "953b6c31da7c0cf360558814e76e432057acd7c57bc93977d7227533d901c78e"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/model_audit.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/model_audit.py",
+      "sha256": "a822409fb002884bca310a029798072d5e6965d3aa8a49009e2eb23e68675e7d",
+      "bytes": 4617,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/motion.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/motion.py",
+      "sha256": "aa29202195c6b01c7260ee76900e7761c418b733f67ce33b6ac3853f9767229c",
+      "bytes": 9871,
+      "kind": "source",
+      "source_sha256": "6ed02bcf4d19fd5391d7ebb86c6e1a10602c817fb92b38ec49fca0193e957be0",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "bea784e48dd64e9f6f11fc022fe5537eab6e2b9d4f9028cba90e3e5554db97b0"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/physics.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/physics.py",
+      "sha256": "8d25b115d54f31e04ff1bc9c1c8306e55297520f187854ba3f33b7292236f147",
+      "bytes": 7624,
+      "kind": "source",
+      "source_sha256": "b6ffc85cb049a7a072c83a0450bf16d27341bb23e297361d80e7daeb059888f3",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "9b67a2741e239ac88e6112565cedbf76d6e28f12f679d83ec1b679e080908e13"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/prepare.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/prepare.py",
+      "sha256": "01daa6b4dcf2640f2650d471530b6f412ebe5fd7ee520ecb4c7942cc5fd0831d",
+      "bytes": 3372,
+      "kind": "source",
+      "source_sha256": "1f4f1d5662ad06774d9db0ac2a661b1b0ff9b1968fb828c4e14f78b7945d4975",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "8854d61f90202b21a8491cdcbe1d6d4e1034078ee4ef0665affaab8dfbb1259a"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/prepare_backflip.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/prepare_backflip.py",
+      "sha256": "734e1652f362908734627f775872f3364ef42e46f3d3b46216ed77b032f184ec",
+      "bytes": 13199,
+      "kind": "source",
+      "source_sha256": "274adf78d8cb1750f9957a79972839e574379c5073d0baa8590ecc6317e24aaf",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "1f98098f7f3cdd64d2420baff221523ef6607b025566fc1e3e40abb167f0400c"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/prepare_jump.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/prepare_jump.py",
+      "sha256": "fe01f8387022f14ae66575f71e0961ffbd36e451c57c758f6e277d502231c162",
+      "bytes": 18416,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/prepare_jump_sequence.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/prepare_jump_sequence.py",
+      "sha256": "acc54d5f941b846bb0c5b25469b6ca45e2bc0c5a8c525d86820dfba8ec41a352",
+      "bytes": 13123,
+      "kind": "source",
+      "source_sha256": "600a4bd3bf6c46f7a7141ba3e995fc2a78cb60f9ecf9a1055c9519063991bf72",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "d26d15026d0d382099c06a71f8aa07990fe50b32d7f6f15997d8c925eda92fcd"
+    },
+    {
+      "source": "as2-sim2real/src/as2_motion_imitation/task.py",
+      "destination": "repository/as2-sim2real/src/as2_motion_imitation/task.py",
+      "sha256": "764ad91bd5ba7b9d9219ba73e2f3c239efc63c84d67a4749fb244fbc8ec60532",
+      "bytes": 7073,
+      "kind": "source",
+      "source_sha256": "78e33be83876d99322cef9a8408f0ea67792592553f7b5bdc83404541728d850",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "5ed54a0ec431b1e85effe10b7b61453ff94578f24aab664f717a914903588738"
+    },
+    {
+      "source": "as2-sim2real/configs/backflip-4096.toml",
+      "destination": "repository/as2-sim2real/configs/backflip-4096.toml",
+      "sha256": "b31e6c0d11a9b279c43cfd40f1e8edece5eef60c49524a8a61d93bb1a29a7718",
+      "bytes": 964,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/backflip-acceptance.json",
+      "destination": "repository/as2-sim2real/configs/backflip-acceptance.json",
+      "sha256": "01dfaa3ec97f3b009ff2f677a7b287bf3da4fa88f6e23ce0cdbc48ce94148009",
+      "bytes": 702,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/backflip-gpu-smoke.toml",
+      "destination": "repository/as2-sim2real/configs/backflip-gpu-smoke.toml",
+      "sha256": "4619ec98a49e62646daf60195125a067d184063f2443862d31e35bae0ee33899",
+      "bytes": 676,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/backflip-script.json",
+      "destination": "repository/as2-sim2real/configs/backflip-script.json",
+      "sha256": "1dbdf2753110a8092cd982ba7cce7b6075d9fcba966bfb134e5674df6a6eb2cd",
+      "bytes": 1022,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/controller-synthetic.json",
+      "destination": "repository/as2-sim2real/configs/controller-synthetic.json",
+      "sha256": "bfc7b7ba50122e38dcf7ea4c1b548d863118b15a542f6fa38b6cc4a6535026b7",
+      "bytes": 2301,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/crouch-acceptance.json",
+      "destination": "repository/as2-sim2real/configs/crouch-acceptance.json",
+      "sha256": "706c47ea397713108dcdd873921e41135092dc831f5535f36814efb22ef63e00",
+      "bytes": 614,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/crouch-probe.toml",
+      "destination": "repository/as2-sim2real/configs/crouch-probe.toml",
+      "sha256": "4fb91ade72b61042d6defae4b5a6d52c8c1374bc74107091973dc6ecf01c5a1a",
+      "bytes": 294,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/crouch-smoke.toml",
+      "destination": "repository/as2-sim2real/configs/crouch-smoke.toml",
+      "sha256": "e58d33463cd7c300ec7f6af6f224b142c3458471addf5640c7741f9f8833e9ff",
+      "bytes": 269,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/forward-jump-4096.toml",
+      "destination": "repository/as2-sim2real/configs/forward-jump-4096.toml",
+      "sha256": "7af46df48502265478eaf349ec8db8b360d22ab337c0cbcd3b0deb64c003300c",
+      "bytes": 859,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/forward-jump-acceptance.json",
+      "destination": "repository/as2-sim2real/configs/forward-jump-acceptance.json",
+      "sha256": "8737de80769621cbab83505b3049d6e87ac1664664127edd278e664d94236c19",
+      "bytes": 623,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/forward-jump-gpu-smoke.toml",
+      "destination": "repository/as2-sim2real/configs/forward-jump-gpu-smoke.toml",
+      "sha256": "e41877912070e5fd3b62ab3e60bd9dac8353b89cd501b76e3a030b12c4b4aa37",
+      "bytes": 655,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/forward-jump-script.json",
+      "destination": "repository/as2-sim2real/configs/forward-jump-script.json",
+      "sha256": "e15594fcfc3b3cfcff403c912fa1eaf2deb5736fb745e3d1b72ae20bf55ec0a3",
+      "bytes": 410,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/proprio-single-jump-4096.toml",
+      "destination": "repository/as2-sim2real/configs/proprio-single-jump-4096.toml",
+      "sha256": "9c080dea6d44ebec84067685f83c56971ad5792c99f58f6d0fa13e39219fe6cf",
+      "bytes": 912,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/triple-forward-jump-4096.toml",
+      "destination": "repository/as2-sim2real/configs/triple-forward-jump-4096.toml",
+      "sha256": "a6cf8901bb70268dc2ed1be9e4566d718a2bdd804065a0d9f309abecb6a28292",
+      "bytes": 1025,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/triple-forward-jump-acceptance.json",
+      "destination": "repository/as2-sim2real/configs/triple-forward-jump-acceptance.json",
+      "sha256": "459f8cd604e3a62c5f7bde6fb5de2dd6dd0a330eec8729d9e972933b137c9407",
+      "bytes": 832,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/configs/triple-forward-jump-script.json",
+      "destination": "repository/as2-sim2real/configs/triple-forward-jump-script.json",
+      "sha256": "1cd2b7ca490a474d874d74dcd5c2c96f3f82760fd83ba9ab38ef1a94a2e6ac72",
+      "bytes": 138,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_backflip.json",
+      "destination": "repository/as2-sim2real/data/processed/as2_backflip.json",
+      "sha256": "b372432d9ef1c1cbc18a87e7aa952845b0ef56ebc02bae2efd39d6e2f047214d",
+      "bytes": 6012,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_backflip.npz",
+      "destination": "repository/as2-sim2real/data/processed/as2_backflip.npz",
+      "sha256": "33f3524fb95687e6c16948deba218264a5bf11afa552da8b5f4f31941f5d5f57",
+      "bytes": 413495,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_crouch.json",
+      "destination": "repository/as2-sim2real/data/processed/as2_crouch.json",
+      "sha256": "96550cd984df5dc52ab706af25b6826ddfe25266bc0a6db444099c2af683639a",
+      "bytes": 2269,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_crouch.npz",
+      "destination": "repository/as2-sim2real/data/processed/as2_crouch.npz",
+      "sha256": "5307a6b69224dd89fadc2d7d3de6c93581149397d600ec1547aace2a0b1fcdcd",
+      "bytes": 349213,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_forward_jump.json",
+      "destination": "repository/as2-sim2real/data/processed/as2_forward_jump.json",
+      "sha256": "cd744c22a7f084a85380d6d6b45a19e5a5344104121753b8aac916fc1f4e1741",
+      "bytes": 5673,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_forward_jump.npz",
+      "destination": "repository/as2-sim2real/data/processed/as2_forward_jump.npz",
+      "sha256": "75ef2084372ec058067ef30d7f8f7ead8c9a65046a346e4f511de7bffe968f6b",
+      "bytes": 353424,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_stand.json",
+      "destination": "repository/as2-sim2real/data/processed/as2_stand.json",
+      "sha256": "348a8894a6a2bc22d95025547ea04ae76e29ae86256a214eabf5c4ba78cd7926",
+      "bytes": 2236,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_stand.npz",
+      "destination": "repository/as2-sim2real/data/processed/as2_stand.npz",
+      "sha256": "aed622858cde7e78d79ae762da2eeb3d984007426c39dd586a63c44f0e6e6cdb",
+      "bytes": 3659,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_triple_forward_jump.json",
+      "destination": "repository/as2-sim2real/data/processed/as2_triple_forward_jump.json",
+      "sha256": "80593d970f9d1654fef5faabafb76d61c40e14569004e57bae37ec06af0b91c3",
+      "bytes": 7304,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/processed/as2_triple_forward_jump.npz",
+      "destination": "repository/as2-sim2real/data/processed/as2_triple_forward_jump.npz",
+      "sha256": "0a2ca9abce71b7b5ff4bd3b4b3a947d8f5325a0a18619c56e246e9d158718368",
+      "bytes": 604897,
+      "kind": "reference"
+    },
+    {
+      "source": "as2-sim2real/data/raw/as2-native-backflip/physics_capture.npz",
+      "destination": "repository/as2-sim2real/data/raw/as2-native-backflip/physics_capture.npz",
+      "sha256": "e717d4198c6fd54faa16f95ded74ab63c8aa629a0daa9fc849ea6c15bee61ca3",
+      "bytes": 418038,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-sim2real/data/raw/as2-native-backflip/provenance.json",
+      "destination": "repository/as2-sim2real/data/raw/as2-native-backflip/provenance.json",
+      "sha256": "c7e35ba1f327ea3ebf6f4b964a92250c545265791c91a57748ae98f7990ef67b",
+      "bytes": 3950,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-sim2real/data/raw/as2-native-crouch/physics_capture.npz",
+      "destination": "repository/as2-sim2real/data/raw/as2-native-crouch/physics_capture.npz",
+      "sha256": "6385d8ab079bdb63f5da33739a984d79f4b948dfaf756e794740727ea2495c82",
+      "bytes": 350306,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-sim2real/data/raw/as2-native-crouch/provenance.json",
+      "destination": "repository/as2-sim2real/data/raw/as2-native-crouch/provenance.json",
+      "sha256": "b8d73b2ae12a4b585693e3c9a6d13e2f3672110d0da0c33a1ab66c2574c2971a",
+      "bytes": 487,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-sim2real/data/raw/as2-native-forward-jump/physics_capture.npz",
+      "destination": "repository/as2-sim2real/data/raw/as2-native-forward-jump/physics_capture.npz",
+      "sha256": "c0316beca01312dc84446f5e446784794f3491ce7604ef0042f61f3494883193",
+      "bytes": 357128,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-sim2real/data/raw/as2-native-forward-jump/provenance.json",
+      "destination": "repository/as2-sim2real/data/raw/as2-native-forward-jump/provenance.json",
+      "sha256": "14e4575e39e539e97b95b7f94c46094d9364754aab008c48f632e83acc2a5a9c",
+      "bytes": 3631,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-sim2real/data/raw/as2-native-triple-forward-jump/physics_capture.npz",
+      "destination": "repository/as2-sim2real/data/raw/as2-native-triple-forward-jump/physics_capture.npz",
+      "sha256": "c199bea1b3a56fd57be2c7ebc7a6ccd7201a3c63140babba6bb786ff463309e5",
+      "bytes": 610650,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-sim2real/data/raw/as2-native-triple-forward-jump/provenance.json",
+      "destination": "repository/as2-sim2real/data/raw/as2-native-triple-forward-jump/provenance.json",
+      "sha256": "48398e516ebf44b969052c19299b6378ea871081bfb729567f6daf52c2c1c017",
+      "bytes": 5176,
+      "kind": "recorded_commands"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/__init__.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/__init__.py",
+      "sha256": "5dacada1aa52f3326287acb10d35067af86f3f0ea6c3ca0135d3d0c42ae0f7ec",
+      "bytes": 66,
+      "kind": "baseline",
+      "source_sha256": "a179b047afbf0681d560b4f73f3ee99b255b18a7765483e8dd3e10d4243a2e2e",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "4a8065493765c29973d6e9ae4f7f47b57da588d88e054966aed4d1d4ca4c2574"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/checkpoints.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/checkpoints.py",
+      "sha256": "e1b56b86bf12fa35ae9f93f5ceaea44b513c98a12d612a773225c3eaa0c74dd3",
+      "bytes": 1623,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/curriculum.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/curriculum.py",
+      "sha256": "c7af03ff20f3b40b6cbfedd4927d38ef3ce32d77567485ac86c7489254d344c7",
+      "bytes": 1979,
+      "kind": "baseline",
+      "source_sha256": "03b65921814d0a0d15c46110860d41f231af1442be5d27e000aa90efe8fbfc5e",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "286bbe33db2fa125bd7018d75018004e7f9e351ae31e3d48ba3e05242560d88f"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/env/__init__.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/env/__init__.py",
+      "sha256": "a8f8ea9867cd7e4b4bec502941319f36618326de3925b194534de4b9eaf151ff",
+      "bytes": 605,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/env/command.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/env/command.py",
+      "sha256": "cdebb954456f0e2a03b9dc2aa7c04abaeaa8949bedf27161e738c444030d208a",
+      "bytes": 13493,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/env/env_cfg.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/env/env_cfg.py",
+      "sha256": "531cabfd0278f61fc68513bad98b2a9ca27fd92a7047491bbeefa2e29d235840",
+      "bytes": 10870,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/env/mdp.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/env/mdp.py",
+      "sha256": "cf4952048f1d555604f73d54b4b28d05de781457178b4590d17e8f3472924fcb",
+      "bytes": 7503,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/env/terrains.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/env/terrains.py",
+      "sha256": "3599d1aeb9388372da401530ad7b623baf0eb8bd7d188781e1f5fd9370f4b2c8",
+      "bytes": 2959,
+      "kind": "baseline",
+      "source_sha256": "652806324d931056dbaa405d79e7a58c056e9d007df2ada7790ff2601b9d9295",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "28917e68b654fceb6d57b88dbf0c710c2083e17d302f18107887c4a46df11d2a"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/paths.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/paths.py",
+      "sha256": "34c4d82752f31597f06c682f55cb88be090ee55a8c0634fad0626fe9e45dfc23",
+      "bytes": 265,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/__init__.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/__init__.py",
+      "sha256": "c5e043a5d17892380096844bec6d5e0d96ef34e564dbf0ba8999c65c10512cae",
+      "bytes": 61,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/as2.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/as2.py",
+      "sha256": "3eec2cbf2d26418403c0ee7d960329ad5628d271c845415f4b7c5d8318197a27",
+      "bytes": 2170,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/as2.xml",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/as2.xml",
+      "sha256": "bdfe2c6dc4c0f29aaf51992cdc7c40c7302f4e2e04305a71ee061b04216e55c8",
+      "bytes": 12853,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_calf.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_calf.STL",
+      "sha256": "f54d50478562a3ff5fc1ab5d6d0a8a88daad2e9ce51ded4b4da09d289ece023b",
+      "bytes": 1712684,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_foot.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_foot.STL",
+      "sha256": "9895cf0abdca2cde395327ab9b49b2da07af3e1dad1e52a2ef36b66f254b117c",
+      "bytes": 2965884,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_hip.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_hip.STL",
+      "sha256": "1ad48fb81fd30426831ec8ae46ee952415ae3e80916be73641fcacdf8bf0c34b",
+      "bytes": 3495584,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_thigh.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FL_thigh.STL",
+      "sha256": "0e147268b0335b37276261538bf0e37e974a4fa5d986c8b70cd659377fb7aa1a",
+      "bytes": 3610484,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_calf.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_calf.STL",
+      "sha256": "f54d50478562a3ff5fc1ab5d6d0a8a88daad2e9ce51ded4b4da09d289ece023b",
+      "bytes": 1712684,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_foot.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_foot.STL",
+      "sha256": "9895cf0abdca2cde395327ab9b49b2da07af3e1dad1e52a2ef36b66f254b117c",
+      "bytes": 2965884,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_hip.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_hip.STL",
+      "sha256": "1dbf34bc4d38569184635d3d4e784f43aa432f709f399ffe3516c361758fb65b",
+      "bytes": 3500484,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_thigh.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/FR_thigh.STL",
+      "sha256": "3460a1c28e8a965cafdb085402cc755af9edc4318677507e0f85793c7ad52f09",
+      "bytes": 3604384,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_calf.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_calf.STL",
+      "sha256": "f54d50478562a3ff5fc1ab5d6d0a8a88daad2e9ce51ded4b4da09d289ece023b",
+      "bytes": 1712684,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_foot.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_foot.STL",
+      "sha256": "9895cf0abdca2cde395327ab9b49b2da07af3e1dad1e52a2ef36b66f254b117c",
+      "bytes": 2965884,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_hip.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_hip.STL",
+      "sha256": "1ad48fb81fd30426831ec8ae46ee952415ae3e80916be73641fcacdf8bf0c34b",
+      "bytes": 3495584,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_thigh.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RL_thigh.STL",
+      "sha256": "0e147268b0335b37276261538bf0e37e974a4fa5d986c8b70cd659377fb7aa1a",
+      "bytes": 3610484,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_calf.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_calf.STL",
+      "sha256": "3950407cd9449e5b737101f065ba65caf1b26d7ede58c687602b0fae573ff620",
+      "bytes": 1719084,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_foot.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_foot.STL",
+      "sha256": "19002323a262c701553d5afbbc75b0194339482a61c958e38df7f44cef72644a",
+      "bytes": 2880184,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_hip.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_hip.STL",
+      "sha256": "d1a0bfd69a348e8101989980449af99ed4055abc1924b2b69ef041cee9d8f916",
+      "bytes": 3502584,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_thigh.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/RR_thigh.STL",
+      "sha256": "c5e541cfde796abd6da54da6b8cca4d1e41a0208440c1fe133a4f2b8e320624d",
+      "bytes": 3598484,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/base_link.STL",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/assets/unitree_as2/xmls/assets/base_link.STL",
+      "sha256": "ec787cbc413809f70144136d96fd5ede583baeae0270f2730d88e59b2925f9b5",
+      "bytes": 7225384,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/robot/morphology.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/robot/morphology.py",
+      "sha256": "80fe6b8c1bf785a7eeb8e50a8bb0792081f15b568261a66e35190d79e70dd88a",
+      "bytes": 1185,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/supermimic/__init__.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/supermimic/__init__.py",
+      "sha256": "e758f4a0e2b1975fb586f81ff1f082a07412fed6d024db6b2bcf5735cff37953",
+      "bytes": 74,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/supermimic/buffer.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/supermimic/buffer.py",
+      "sha256": "9eade4227e81b0e291d126088d0690399471e6fad8c5855faa9ead4e323654a1",
+      "bytes": 4613,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/supermimic/driver.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/supermimic/driver.py",
+      "sha256": "2b70282c9e7f121d1af7a0f61a144872ae2a07fd2dd54c86d45dd9a817f3b405",
+      "bytes": 921,
+      "kind": "baseline",
+      "source_sha256": "1fc8fdc1803fc68f48ea471d7105067e6dce7848dfaf878b84aec2e7b00def4f",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "3cbd1a3020e940a2df905aeb5365e2bfc7d5370a9f5ae4fdc7636a1c8d2da395"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/supermimic/imagine.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/supermimic/imagine.py",
+      "sha256": "1c5a6bb753e724fdc6f3079b06da7fc4b3192b5523c6fc6d7d3843681a4ebf38",
+      "bytes": 12724,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/supermimic/state.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/supermimic/state.py",
+      "sha256": "b251e48d658f99d653e41828b282ea16a3043388f9929d509db66c010ccba839",
+      "bytes": 9852,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/supermimic/train.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/supermimic/train.py",
+      "sha256": "07f3bec5be1793b533e6e75e96f665211e1bfd33be5a767fc407ccfa0f2576c1",
+      "bytes": 31303,
+      "kind": "baseline",
+      "source_sha256": "9b5e41960db831832e4d1a17642608a0c21f9cdd312e3d7b244ec089131fb0d0",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "ffb8a649ca00cc1270dda62fe386ac4aa0577b00ea7d3746fab40a6d5db0ae48"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/supermimic/world_model.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/supermimic/world_model.py",
+      "sha256": "72d879516216f1036331858bff47e20b29e7dc6cd7b71fc5d4f5466a53c2e783",
+      "bytes": 3922,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/target/__init__.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/target/__init__.py",
+      "sha256": "33cd59f81bec227820332b04f1e6bd3140af104b6782b8129458461d86b96019",
+      "bytes": 89,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/target/collision.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/target/collision.py",
+      "sha256": "cc85f10fee52e9f7728b72b8ff8730113d123f7aaa12c1ffb7a2f97fb8423bfe",
+      "bytes": 8915,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/target/generator.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/target/generator.py",
+      "sha256": "37e385aa1936efde114d74d58351355fe565b8fe7a5d688dd9782ffccf67d2e8",
+      "bytes": 28587,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/target/interface.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/target/interface.py",
+      "sha256": "14610cc616ceabcaf9109b7ee0b483e838606f8f4c7021ac2c57499d30335373",
+      "bytes": 3527,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/target/obstacles.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/target/obstacles.py",
+      "sha256": "ab1cb9f5685bd79b7a74ed6356e369cfb35dd5852862576c69d1be1a13058257",
+      "bytes": 6903,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/target/terrain.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/target/terrain.py",
+      "sha256": "88f8b5ee9aa9d0dfbaf07af8ab7d74271da3617c92c7717770d602ceb09a7587",
+      "bytes": 6574,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/src/as2_supermimic/viz.py",
+      "destination": "repository/as2-sim2real/baseline/project/src/as2_supermimic/viz.py",
+      "sha256": "2c669c242c86f87db3fb877d90ca601c3d81f53e35ecdb933c6f941df6757a12",
+      "bytes": 12206,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/configs/chase.toml",
+      "destination": "repository/as2-sim2real/baseline/project/configs/chase.toml",
+      "sha256": "6dfef3ac42a0c3cea9fc5463ac897fd23473657596926511d51a8cbe6ebb174d",
+      "bytes": 375,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/configs/dodge-balls.toml",
+      "destination": "repository/as2-sim2real/baseline/project/configs/dodge-balls.toml",
+      "sha256": "7b3256ab7f9c9327f934c2a9bce62f5961f3ab29c0b9fd68919f01edc640fa10",
+      "bytes": 259,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/configs/dodge-bars.toml",
+      "destination": "repository/as2-sim2real/baseline/project/configs/dodge-bars.toml",
+      "sha256": "7e7d2353963f7e8411ffa949f1580829b75c239da707589c42926279309822bd",
+      "bytes": 228,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/configs/obstacles.toml",
+      "destination": "repository/as2-sim2real/baseline/project/configs/obstacles.toml",
+      "sha256": "7954de969845029a6a1a962c5fc932083c849e30742f5d93c29daa7f6aba970a",
+      "bytes": 253,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/configs/probe.toml",
+      "destination": "repository/as2-sim2real/baseline/project/configs/probe.toml",
+      "sha256": "b7beb4858bb658566920247271f9480c57c8b55d7dcfe62ad7a64226e79ed3c7",
+      "bytes": 397,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/configs/smoke.toml",
+      "destination": "repository/as2-sim2real/baseline/project/configs/smoke.toml",
+      "sha256": "4598eddd77bef7cb8ee7006d5e40ab25d9cd661e8126354127564edc73317e4b",
+      "bytes": 431,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/configs/terrain.toml",
+      "destination": "repository/as2-sim2real/baseline/project/configs/terrain.toml",
+      "sha256": "f784d2ad852b0dee32f607bc3b4df99ee19dba80ace35f14046dce90a6cde616",
+      "bytes": 304,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/tests/test_as2_curriculum.py",
+      "destination": "repository/as2-sim2real/baseline/project/tests/test_as2_curriculum.py",
+      "sha256": "9d12b0120e4768cf5ab4f42322cc526a138256f3393e0524a95321f180271ac0",
+      "bytes": 1196,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/tests/test_as2_learning.py",
+      "destination": "repository/as2-sim2real/baseline/project/tests/test_as2_learning.py",
+      "sha256": "fae1781e79ce80952b3bcb280662b1c6032ba2da852b1556b3ae7c8e835857db",
+      "bytes": 3139,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/tests/test_as2_model.py",
+      "destination": "repository/as2-sim2real/baseline/project/tests/test_as2_model.py",
+      "sha256": "7544d68de6e5633458d84b8fd53f79ff31d4d51290b05fa03e75fa98c88ec4c6",
+      "bytes": 6216,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/tests/upstream/test_obstacles.py",
+      "destination": "repository/as2-sim2real/baseline/project/tests/upstream/test_obstacles.py",
+      "sha256": "b65472162f67a857d3c2cdcd5efcc3d94b6d7825da6b9c6eca2184c7a03b1a77",
+      "bytes": 6073,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/tests/upstream/test_target.py",
+      "destination": "repository/as2-sim2real/baseline/project/tests/upstream/test_target.py",
+      "sha256": "fdc59da5b01cade47303a0f012188840f395d11c0234ec5ce88ba4dc153541e2",
+      "bytes": 13694,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/tests/upstream/test_terrain.py",
+      "destination": "repository/as2-sim2real/baseline/project/tests/upstream/test_terrain.py",
+      "sha256": "f45e54c253c6d7e818f59830855968648e975bb0b6b432b5280cccad39d48203",
+      "bytes": 4762,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/third_party/go2-supermimic/LICENSE",
+      "destination": "repository/as2-sim2real/baseline/project/third_party/go2-supermimic/LICENSE",
+      "sha256": "74bf77852bebd2733a186f3fb25cd6cff7f22820d1be6ff5c3510b4cad6a35b8",
+      "bytes": 1068,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/third_party/go2-supermimic/port-manifest.json",
+      "destination": "repository/as2-sim2real/baseline/project/third_party/go2-supermimic/port-manifest.json",
+      "sha256": "b033b429376423ae9d1d8c0e1939a8c1bcb96b006e9ca298bd4c9046fa300830",
+      "bytes": 11580,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/third_party/unitree_rl_mjlab/LICENCE",
+      "destination": "repository/as2-sim2real/baseline/project/third_party/unitree_rl_mjlab/LICENCE",
+      "sha256": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28",
+      "bytes": 11362,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/third_party/unitree_rl_mjlab/as2_constants.py",
+      "destination": "repository/as2-sim2real/baseline/project/third_party/unitree_rl_mjlab/as2_constants.py",
+      "sha256": "4e0099a1b3557e049fe2f5679e22bf3f64c061ae0d26c329fb029ef3e78c87e7",
+      "bytes": 3024,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/third_party/unitree_rl_mjlab/manifest.json",
+      "destination": "repository/as2-sim2real/baseline/project/third_party/unitree_rl_mjlab/manifest.json",
+      "sha256": "a77d83d3f82142efbaf5cbd1fd05888a5e47802c979c4bb8e52f9d61274a05e0",
+      "bytes": 9396,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/third_party/unitree_rl_mjlab/velocity_env_cfg.py",
+      "destination": "repository/as2-sim2real/baseline/project/third_party/unitree_rl_mjlab/velocity_env_cfg.py",
+      "sha256": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3",
+      "bytes": 11789,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/pyproject.toml",
+      "destination": "repository/as2-sim2real/baseline/project/pyproject.toml",
+      "sha256": "79253ed1b331d0e58edfc286c37ec183e0d76e3a988fbb8d787740046cb4ecf7",
+      "bytes": 733,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/baseline/project/THIRD_PARTY_NOTICES.md",
+      "destination": "repository/as2-sim2real/baseline/project/THIRD_PARTY_NOTICES.md",
+      "sha256": "11adb767e30754b8ae62a8638d5cb66961e147f68d2cc2256259795971166a23",
+      "bytes": 1719,
+      "kind": "baseline"
+    },
+    {
+      "source": "as2-sim2real/scripts/audit_backflip_evaluation.py",
+      "destination": "repository/as2-sim2real/scripts/audit_backflip_evaluation.py",
+      "sha256": "75a0d23011d83a9288edbbbc96ae67d1743bec02b7b7c98a1e628acd86ae94d7",
+      "bytes": 4602,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/audit_input_contract.py",
+      "destination": "repository/as2-sim2real/scripts/audit_input_contract.py",
+      "sha256": "2667e0ea99dcd10308441051d95e567abdb3474cdb2917aa1878b351f98ea53e",
+      "bytes": 2882,
+      "kind": "source",
+      "source_sha256": "9ea2165d32d30702bf79d442bfd4942046501913172eb0a08767d894663a8ddd",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "2f57debb575a3bddd0e611e904bb86cc32580bd68afb5c11d8c050e2ca1b6c70"
+    },
+    {
+      "source": "as2-sim2real/scripts/audit_lowstate_capture.py",
+      "destination": "repository/as2-sim2real/scripts/audit_lowstate_capture.py",
+      "sha256": "2617f002608fd5708052a76fe95acf05b8fb31b3647d50aa8db2a87e468fee0d",
+      "bytes": 4987,
+      "kind": "source",
+      "source_sha256": "8eda309054d0e396ac2c1e92d3ca57283eef9ffbd054c3c3826d296a70464a75",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "bf2c9df4aca37927fbca14469ea3129e77dc2ae3d6675569fcbc2cd3fd620202"
+    },
+    {
+      "source": "as2-sim2real/scripts/audit_reference.py",
+      "destination": "repository/as2-sim2real/scripts/audit_reference.py",
+      "sha256": "175478674f73371cbfcd1a85ed697876a4354c51fc7e34dfc4f84ce2a8592a4f",
+      "bytes": 3564,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/audit_sequence_evaluation.py",
+      "destination": "repository/as2-sim2real/scripts/audit_sequence_evaluation.py",
+      "sha256": "50271d26065526d3c36b9785ac8fe77d7ba5c7c147fdd18bd820f59f10a38835",
+      "bytes": 4333,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/audit_single_jump.py",
+      "destination": "repository/as2-sim2real/scripts/audit_single_jump.py",
+      "sha256": "917349f87364258619d5b6e846ea33aaf34c0fc54b6f84be757f1845bfac707f",
+      "bytes": 3298,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/bootstrap_orin_controller_numpy.py",
+      "destination": "repository/as2-sim2real/scripts/bootstrap_orin_controller_numpy.py",
+      "sha256": "776191f992d996de3f65c4cbd6365988c0d0c2a6d6bb16254dd9e504b908f00a",
+      "bytes": 1937,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/bootstrap_orin_readonly_sdk.py",
+      "destination": "repository/as2-sim2real/scripts/bootstrap_orin_readonly_sdk.py",
+      "sha256": "390de6f7a808e6dffa2cd438f5f05a7dcac88af88db9adc87cf0bbe8391194cd",
+      "bytes": 3722,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/diagnose_jump_checkpoint.py",
+      "destination": "repository/as2-sim2real/scripts/diagnose_jump_checkpoint.py",
+      "sha256": "86f08c09e42efacf711756ac5f2b901a7c00a37ad234f2d0e0c7401e319273b2",
+      "bytes": 6572,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/diagnose_model.py",
+      "destination": "repository/as2-sim2real/scripts/diagnose_model.py",
+      "sha256": "58cc4dda17faedb93249cec3cbe102d79b0d701d5b8ffe41aa823fe4462a3a52",
+      "bytes": 3277,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/evaluate_robustness.py",
+      "destination": "repository/as2-sim2real/scripts/evaluate_robustness.py",
+      "sha256": "4877e6cb86c1675aefe9bba4ac887f6dc2c1f35659021cef159a254fe2dc792c",
+      "bytes": 2530,
+      "kind": "source",
+      "source_sha256": "0212b0846734427a0adc93c0f5342a95902fa64f0367ee14195fab2e32d2c2fc",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "c4eeda3d55f83446faa49aa1530e1665401928b4ecd40cf08045650018cec7bb"
+    },
+    {
+      "source": "as2-sim2real/scripts/export_single_jump_deployment.py",
+      "destination": "repository/as2-sim2real/scripts/export_single_jump_deployment.py",
+      "sha256": "b6f69e21e06d8404f9fd7215abd876173e463efbfed5d18f6a7387e822699dc2",
+      "bytes": 5696,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/plot_jump_training.py",
+      "destination": "repository/as2-sim2real/scripts/plot_jump_training.py",
+      "sha256": "2e5fe0b225e3f20b1222aeef533d8d5f1a3d8638ebf738ab602b35f64a16af34",
+      "bytes": 3057,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/probe_gpu_physics.py",
+      "destination": "repository/as2-sim2real/scripts/probe_gpu_physics.py",
+      "sha256": "cae13efec4aa1a3be24447401214990f4914b9528f5e6d12e652cc87214a83f4",
+      "bytes": 3585,
+      "kind": "source",
+      "source_sha256": "3f648d66b85649e955a66d1bec6a6b2aa1a8aafcfc94d5a3771c8dd613167c17",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "9d20d07d3bfca8ad9637208359fcf237430a2cfb27b3c2cf70d95fc5758dfdd1"
+    },
+    {
+      "source": "as2-sim2real/scripts/record_provenance.py",
+      "destination": "repository/as2-sim2real/scripts/record_provenance.py",
+      "sha256": "14536f12cdc4f3635334ba564467ed939de0443e62b3895c4aed4c4c23f6d99f",
+      "bytes": 3408,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_deploy_control_selftest.sh",
+      "destination": "repository/as2-sim2real/scripts/run_deploy_control_selftest.sh",
+      "sha256": "ee34723be4c40e7773c6acc87de68fc6aa64eed3ad7cc30874cf5944810b748a",
+      "bytes": 576,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_deploy_controller.sh",
+      "destination": "repository/as2-sim2real/scripts/run_deploy_controller.sh",
+      "sha256": "a61bba3b42879e60aaee73edc3cbd1f0fd2bb85e3cdc9fecc23f6584a0932c8f",
+      "bytes": 659,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_deploy_controller_selftest.sh",
+      "destination": "repository/as2-sim2real/scripts/run_deploy_controller_selftest.sh",
+      "sha256": "97442e762d8a3286c32811bd8eb9e5035f2047ea4c1347acc659585c39e64a5d",
+      "bytes": 664,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_deploy_feedback_crc.sh",
+      "destination": "repository/as2-sim2real/scripts/run_deploy_feedback_crc.sh",
+      "sha256": "e4e5e4c554aef6160f33c07d75491b636f50628d3cc3384c1e24076f513fbf56",
+      "bytes": 572,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_deploy_offline.sh",
+      "destination": "repository/as2-sim2real/scripts/run_deploy_offline.sh",
+      "sha256": "26ab386556877cfbe45f4f90565e96fa34cc2c2a6a995911327268b6f321cc5d",
+      "bytes": 462,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_deploy_readiness.sh",
+      "destination": "repository/as2-sim2real/scripts/run_deploy_readiness.sh",
+      "sha256": "159848e3e0ba40edb6b9e400717bdac447b1aa9d35bb536af64f48d666ababba",
+      "bytes": 569,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_deploy_remote_stop.sh",
+      "destination": "repository/as2-sim2real/scripts/run_deploy_remote_stop.sh",
+      "sha256": "aca523270d0673fcfc99c91b1fc8d57750ba140c9c4f8f901f7c2c3df241d222",
+      "bytes": 590,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_deploy_telemetry.sh",
+      "destination": "repository/as2-sim2real/scripts/run_deploy_telemetry.sh",
+      "sha256": "d586267244c7af7e45efb8de501c7b05f52d0614d2b10742e25946b52ae07571",
+      "bytes": 635,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/run_logged.py",
+      "destination": "repository/as2-sim2real/scripts/run_logged.py",
+      "sha256": "0a89297383e1ab7ce799a99203c13c956f29d2bd67d84f33ddbbc6d13ba71cdc",
+      "bytes": 1307,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/stage_single_jump_deployment.py",
+      "destination": "repository/as2-sim2real/scripts/stage_single_jump_deployment.py",
+      "sha256": "eb8c918ef93fb585fb90e727a5268c347c49f2fc9db4b7c9a78d2136c6585dba",
+      "bytes": 3770,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/summarize_training.py",
+      "destination": "repository/as2-sim2real/scripts/summarize_training.py",
+      "sha256": "1907e20612f13e1164e4936ef6944c9524c49e7dbe0f17f4ec86c9168d6bab0b",
+      "bytes": 5226,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/verify_controller_physics.py",
+      "destination": "repository/as2-sim2real/scripts/verify_controller_physics.py",
+      "sha256": "dc76b746736a670979c717fec825d0014af73c03d2a36939e84e6a7327294f03",
+      "bytes": 6229,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/scripts/verify_deployment_physics.py",
+      "destination": "repository/as2-sim2real/scripts/verify_deployment_physics.py",
+      "sha256": "b26da09d4850a75fbe996da8268f775e3506e25331f7d159336ae2cbddda955b",
+      "bytes": 5003,
+      "kind": "source"
+    },
+    {
+      "source": "as2-sim2real/tests/fixtures/single-jump-dense.npz",
+      "destination": "repository/as2-sim2real/tests/fixtures/single-jump-dense.npz",
+      "sha256": "7292c548f3209c8107af72e2a420e1d4974e6f52b8a05d5ac67b085c7f5d3e4b",
+      "bytes": 725066,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/fixtures/triple-jump-dense.npz",
+      "destination": "repository/as2-sim2real/tests/fixtures/triple-jump-dense.npz",
+      "sha256": "dd0da200d310109900c99df632d42d8f1aaafda6f488284420bf875d477f90e6",
+      "bytes": 3112996,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/fixtures/triple-source.tar.gz",
+      "destination": "repository/as2-sim2real/tests/fixtures/triple-source.tar.gz",
+      "sha256": "4803afabaf11634d27dc17babad619ad1eb40d0678a8402e476aa6ab3b5f7121",
+      "bytes": 46012,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_backflip.py",
+      "destination": "repository/as2-sim2real/tests/test_backflip.py",
+      "sha256": "a4026c092286ee872fe3f8c54bc14e202f0c6c8e9d032234b5bc903ff01ff4b7",
+      "bytes": 10224,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_bench_control.py",
+      "destination": "repository/as2-sim2real/tests/test_bench_control.py",
+      "sha256": "96c180302f34007d737732f98c919a052faeb62f29c7b55885eddb549ad62aa5",
+      "bytes": 7657,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_controller.py",
+      "destination": "repository/as2-sim2real/tests/test_controller.py",
+      "sha256": "57b9fb0bcaf8913da1633ecc034ca98a6d4eaf651e5f3171e37f32682deb98c8",
+      "bytes": 19010,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_controller_transport.py",
+      "destination": "repository/as2-sim2real/tests/test_controller_transport.py",
+      "sha256": "73a60866fbcb5272d60abdbf45e00de5a7039258971435fbe975264d0e51cb0d",
+      "bytes": 4506,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_deployment.py",
+      "destination": "repository/as2-sim2real/tests/test_deployment.py",
+      "sha256": "1f75d0a50ffb2c0ba82b5ef5f64787333a6ec6437c39434c445bc4858d0b7fd7",
+      "bytes": 8544,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_deployment_staging.py",
+      "destination": "repository/as2-sim2real/tests/test_deployment_staging.py",
+      "sha256": "6ab272bd26d0dcfc3b979e4ad505eb85c70f9551c5f6d0589766bbaa7571fd69",
+      "bytes": 2637,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_feedback_crc.py",
+      "destination": "repository/as2-sim2real/tests/test_feedback_crc.py",
+      "sha256": "5c731e3bd8e7396e5d486fc34174d245a65c80934e7b6858d43b6d68acceb35d",
+      "bytes": 751,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_gpu_training.py",
+      "destination": "repository/as2-sim2real/tests/test_gpu_training.py",
+      "sha256": "c7a34855000f6d5d5b867530af3021635208edbba71db0caa4a719ce31a1235f",
+      "bytes": 5691,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_jump.py",
+      "destination": "repository/as2-sim2real/tests/test_jump.py",
+      "sha256": "7faaeb1a85ed032ff4189e05f037a751b3c18b66b6e9641e4dfb279e88131a64",
+      "bytes": 4249,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_jump_sequence.py",
+      "destination": "repository/as2-sim2real/tests/test_jump_sequence.py",
+      "sha256": "de4aa1a1f4b7f0c9e4e9108ed58073ebf49459e337541506435e6c7f7f42ec3b",
+      "bytes": 6703,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_lowstate_capture_audit.py",
+      "destination": "repository/as2-sim2real/tests/test_lowstate_capture_audit.py",
+      "sha256": "5d1c16e87075ee4cf472b0f024f38cdac8effc2504b2b007fc79589a2d1ba0c7",
+      "bytes": 2102,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_motion.py",
+      "destination": "repository/as2-sim2real/tests/test_motion.py",
+      "sha256": "cbe311efc0b734bce590c4e25a4f25936958900b14479697cae70b79a9592911",
+      "bytes": 8335,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_proprio_contract.py",
+      "destination": "repository/as2-sim2real/tests/test_proprio_contract.py",
+      "sha256": "fe8d48243075722ecc74cbad2bf9e2301043ce4b2a28479d25b18560e7f376fc",
+      "bytes": 6758,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_readiness.py",
+      "destination": "repository/as2-sim2real/tests/test_readiness.py",
+      "sha256": "3878459885fb7b7311ef0aec2bab361e5939b8e7d8d5912ca8bba98fa98e3bf7",
+      "bytes": 2615,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/tests/test_remote_stop.py",
+      "destination": "repository/as2-sim2real/tests/test_remote_stop.py",
+      "sha256": "b733d7adc221647eaa37a7ccadeaefd47f70435211cfcd76fd46c6d6f7e2645f",
+      "bytes": 4823,
+      "kind": "test"
+    },
+    {
+      "source": "as2-sim2real/docs/INPUT_CONTRACT.md",
+      "destination": "repository/as2-sim2real/docs/INPUT_CONTRACT.md",
+      "sha256": "2b9d02c9c1a746ba568f818509ea106b9a09934d5079c8c84e027e3d847de971",
+      "bytes": 3705,
+      "kind": "historical_contract"
+    },
+    {
+      "source": "as2-sim2real/docs/CONTROLLER.md",
+      "destination": "repository/as2-sim2real/docs/CONTROLLER.md",
+      "sha256": "07cee0031e581c9f9fd40a6cbafcec498fb2bebefae8007bfcc1c91aeadd5018",
+      "bytes": 8177,
+      "kind": "historical_contract"
+    },
+    {
+      "source": "as2-sim2real/docs/ORIN_DEPLOYMENT.md",
+      "destination": "repository/as2-sim2real/docs/ORIN_DEPLOYMENT.md",
+      "sha256": "56d01d6fb3861ec4cac3dfb115f9f033415c7e805228f70fd5064cd4062e2608",
+      "bytes": 5164,
+      "kind": "historical_contract"
+    },
+    {
+      "source": "as2-sim2real/THIRD_PARTY_NOTICES.md",
+      "destination": "repository/as2-sim2real/THIRD_PARTY_NOTICES.md",
+      "sha256": "5657efedd9b521b28d0da379b21a3fa232a759ec6c882114965267447551c560",
+      "bytes": 2149,
+      "kind": "notice"
+    },
+    {
+      "source": "as2-sim2real/docs/evidence/AS2_INTERFACE_CONTRACT.json",
+      "destination": "repository/as2-sim2real/docs/evidence/AS2_INTERFACE_CONTRACT.json",
+      "sha256": "5a53403342c9aa1e87711ff8d7188262e707048d0b50540ea85156997eedb6d9",
+      "bytes": 2418,
+      "kind": "historical_contract"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/forward-jump/validation/nominal-dense-trace.npz",
+      "destination": "repository/test-data/simulation/single-jump-dense.npz",
+      "sha256": "7292c548f3209c8107af72e2a420e1d4974e6f52b8a05d5ac67b085c7f5d3e4b",
+      "bytes": 725066,
+      "kind": "test_fixture"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/triple-forward-jump/validation/nominal-dense-trace.npz",
+      "destination": "repository/test-data/simulation/triple-jump-dense.npz",
+      "sha256": "dd0da200d310109900c99df632d42d8f1aaafda6f488284420bf875d477f90e6",
+      "bytes": 3112996,
+      "kind": "test_fixture"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/triple-forward-jump/run-source.tar.gz",
+      "destination": "repository/test-data/simulation/triple-source.tar.gz",
+      "sha256": "4803afabaf11634d27dc17babad619ad1eb40d0678a8402e476aa6ab3b5f7121",
+      "bytes": 46012,
+      "kind": "test_fixture"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-final/metrics.json",
+      "destination": "repository/docs/results/single-jump-metrics.json",
+      "source_sha256": "572e080d47748fe30455492f30c015d00744245219eacd24e4c957da92b4f7ff",
+      "sha256": "5793a8f47cc5ea10caa455720c8b49932fe147c687c72958865e708fac646d78",
+      "bytes": 36176,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/evaluation/backflip-4096-final/metrics.json",
+      "destination": "repository/docs/results/backflip-metrics.json",
+      "source_sha256": "d77a820ed9c613dc19001fb92bcb5b0a7a1a13e3b5723548fa3a9018e37f3680",
+      "sha256": "a6daf58f06ef637d536c3f71f8b67411ddb8fc455c2c2e7da7236049adcdd033",
+      "bytes": 29183,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/evaluation/backflip-4096-final/independent-audit.json",
+      "destination": "repository/docs/results/backflip-audit.json",
+      "source_sha256": "d64657dbe2079f415a668893a318f3594f17ebd42b1266d07d4e0195dd1311d8",
+      "sha256": "d64657dbe2079f415a668893a318f3594f17ebd42b1266d07d4e0195dd1311d8",
+      "bytes": 393,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/backflip/audit-04/nominal-metrics.json",
+      "destination": "repository/docs/results/backflip-reference-metrics.json",
+      "source_sha256": "807d16bed9665b016a89bf90bcdefd8003f9973900a177be5d556ad6c5934ed8",
+      "sha256": "807d16bed9665b016a89bf90bcdefd8003f9973900a177be5d556ad6c5934ed8",
+      "bytes": 863,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-sim2real/outputs/evaluation/proprio-final/metrics.json",
+      "destination": "repository/docs/results/proprio-single-jump-metrics.json",
+      "source_sha256": "2c00c4a5015b43f79123d1c253f6373e7d7213275cef26b76fbf8ac5864cf4b6",
+      "sha256": "ab038e18bb29c61919e7d995b7869c9a1196bbdf14af7f59518ecf11492b2fb6",
+      "bytes": 36910,
+      "kind": "redacted_metadata",
+      "transformation": "Remove project absolute-path prefix in string values only"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/evaluation/forward-jump-4096-final/policy-seed100.mp4",
+      "destination": "repository/docs/media/single-jump.mp4",
+      "sha256": "0d5ec961dead91a0ac4c431e82bae568b9ef1d61e73eaf8a2f890be38afead88",
+      "bytes": 223208,
+      "kind": "evidence"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/evaluation/backflip-4096-final/policy-seed100.mp4",
+      "destination": "repository/docs/media/backflip-experimental.mp4",
+      "sha256": "ea75d616d7c61ed7ca688cd31f907ab129a9d83258439e2176531b167bfe23ba",
+      "bytes": 169596,
+      "kind": "evidence"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/backflip/audit-04/scripted-backflip.mp4",
+      "destination": "repository/docs/media/backflip-scripted-reference.mp4",
+      "sha256": "a05ef98f4d73532799a0bc3c9475cd866a4a8291877ea3436a617bbc3548b80d",
+      "bytes": 161884,
+      "kind": "evidence"
+    },
+    {
+      "source": "as2-sim2real/outputs/evaluation/proprio-final/policy-seed100.mp4",
+      "destination": "repository/docs/media/proprio-single-jump-simulation.mp4",
+      "sha256": "2de80d5dd58b2cd7c44b2469a64db94126d2eef2fd6a7ab22c986039b220eef8",
+      "bytes": 227560,
+      "kind": "evidence"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/forward-jump-training/training-curves.png",
+      "destination": "repository/docs/media/single-jump-training.png",
+      "sha256": "913c466d98440136bd51b90d02a70d850445db61589c339066de3c12de1aa043",
+      "bytes": 196335,
+      "kind": "evidence"
+    },
+    {
+      "source": "as2-motion-imitation/outputs/evaluation/backflip-4096-final/reference-policy-comparison.png",
+      "destination": "repository/docs/media/backflip-reference-policy.png",
+      "sha256": "112d2ab0edf0dc0bdc61ff12ac7824bf233d0fb807aa106414ce022fb952bc8d",
+      "bytes": 109371,
+      "kind": "evidence"
+    },
+    {
+      "source": "agx-snapshot/follow-up/analysis/as2_jump.py",
+      "destination": "repository/hardware-single-jump/as2_jump.py",
+      "sha256": "feb89fcbb3d4c1faadd8fe14d42f9427c6655fe622d2dd64caa16c2a03c784a3",
+      "bytes": 16726,
+      "kind": "hardware_snapshot",
+      "source_sha256": "2f445abf100ecb78c932a8fa81767874d535a5e78db2d1fe08bdca7ab11894c7",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "3f4f842b47ab111f7fa20c0b91c4497935e6e33e3b785acef802e26541d1d778"
+    },
+    {
+      "source": "agx-snapshot/follow-up/analysis/jump-152659.json",
+      "destination": "repository/hardware-single-jump/evidence/jump-152659.json",
+      "sha256": "20e307cd1b70529bf3f6e8521c6b24907ef6db50b4da1e2521db301ecc967a14",
+      "bytes": 26330,
+      "kind": "hardware_snapshot"
+    },
+    {
+      "source": "agx-snapshot/deployed/src/as2_motion_imitation/__init__.py",
+      "destination": "repository/hardware-single-jump/src/as2_motion_imitation/__init__.py",
+      "sha256": "b879ef211e71f16006ec6c34469aa772f948d3caec3d01030586b34bb0b3c33e",
+      "bytes": 87,
+      "kind": "hardware_snapshot",
+      "source_sha256": "0d0fcb531a3bbc05b6310e9e19221aa899177b73db017f7ff76b232493826a9d",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "06f1f46b97ec5789beb6d88e0224098fcdc7ca95398ef299817cb67118d32e0a"
+    },
+    {
+      "source": "agx-snapshot/deployed/src/as2_motion_imitation/deployment/__init__.py",
+      "destination": "repository/hardware-single-jump/src/as2_motion_imitation/deployment/__init__.py",
+      "sha256": "3f71388803f7d07c980fdd269060afd46fb0d656210e2a23affb65c6ed569205",
+      "bytes": 71,
+      "kind": "hardware_snapshot",
+      "source_sha256": "c778b18761ffb31d5260cb664ef786f90311599352edb5c314c90a8bb1d91f50",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "4a8065493765c29973d6e9ae4f7f47b57da588d88e054966aed4d1d4ca4c2574"
+    },
+    {
+      "source": "agx-snapshot/deployed/src/as2_motion_imitation/deployment/runtime.py",
+      "destination": "repository/hardware-single-jump/src/as2_motion_imitation/deployment/runtime.py",
+      "sha256": "66962c02200d99a8b5a3cbd8c8e8d816afa2c2669e6b30f8d9078c1df19a52c0",
+      "bytes": 8403,
+      "kind": "hardware_snapshot",
+      "source_sha256": "6b90f2fe6abd2b3feec9fcb2db15d9f3d7e6b0443b01201c88e3b8d3fddc7a8f",
+      "transformation": "python_comments_and_docstrings",
+      "normalized_ast_sha256": "db0385b965ed1e576e68e4d9158551391e925fc5abdb0296074e21ea1b14055e"
+    }
+  ]
+}

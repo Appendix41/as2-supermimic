@@ -1,0 +1,16 @@
+{
+  "kind": "locally-generated-scripted-PD-physics",
+  "upstream_motion": false,
+  "robot": "AS2",
+  "seed": 0,
+  "generator": "src/as2_motion_imitation/prepare.py",
+  "motion": "stand-crouch-rise-stand",
+  "thigh_offset_rad": 0.13,
+  "calf_offset_rad": -0.26,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "settling_seconds": 3.0,
+  "duration_seconds": 8.0,
+  "pose_writes_after_reset": false,
+  "license_note": "Locally generated simulation data; model notices remain in baseline."
+}

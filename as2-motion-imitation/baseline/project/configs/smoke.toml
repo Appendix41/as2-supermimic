@@ -1,0 +1,20 @@
+# Pipeline check, not a learned policy. Network/window/horizon stay upstream-sized.
+[train]
+task = "As2-Chase-Flat"
+stage = "chase"
+num_envs = 8
+buffer_len = 64
+iterations = 6
+warmup_iterations = 1
+wm_batch = 16
+wm_updates = 1
+archive_size = 64
+imag_batch = 16
+critic_epochs = 1
+critic_minibatches = 1
+critic_warmup_iterations = 0
+actor_ramp_iterations = 1
+compile = false
+log_interval = 1
+save_interval = 6
+run_name = "as2-smoke"

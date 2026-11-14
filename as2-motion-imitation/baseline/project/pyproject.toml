@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "as2-supermimic"
+version = "0.1.0"
+description = "AS2 adaptation of the pinned Go2-SuperMimic implementation"
+requires-python = ">=3.12"
+dependencies = [
+  "mujoco==3.16.0", "mujoco-warp==3.16.0", "warp-lang==1.18.0",
+  "torch==2.14.1+cu130", "mjlab==1.6.0",
+  "tensorboard", "mediapy", "pillow", "numpy",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+as2_supermimic = ["robot/assets/unitree_as2/xmls/*.xml",
+                 "robot/assets/unitree_as2/xmls/assets/*.STL"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: explicitly requested GPU simulator integration tests"]

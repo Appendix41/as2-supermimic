@@ -1,0 +1,346 @@
+{
+  "repository": "Zhengtianjin/go2-supermimic",
+  "commit": "d9eee9b3f248e5300e636c433255db2c1c3e086a",
+  "files": [
+    {
+      "upstream_path": "go2_supermimic/__init__.py",
+      "port_path": "src/as2_supermimic/__init__.py",
+      "upstream_sha256": "6d7ebda115e2ff6aa0c4e51c34eb4fa3fa20d9219e50fc8df73796475c020d8b",
+      "namespace_only_change": false,
+      "unchanged_definitions": []
+    },
+    {
+      "upstream_path": "go2_supermimic/env/__init__.py",
+      "port_path": "src/as2_supermimic/env/__init__.py",
+      "upstream_sha256": "16c7f1677961c5d08477c754d7378a008a691631bab02fed63b4b304f68e8755",
+      "namespace_only_change": false,
+      "unchanged_definitions": []
+    },
+    {
+      "upstream_path": "go2_supermimic/env/command.py",
+      "port_path": "src/as2_supermimic/env/command.py",
+      "upstream_sha256": "4d56a925ce17de6f93a9dd0227c9b5a8bef67762d4bb6334ca2c2ccc172963e1",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "TargetCommand.__init__",
+        "TargetCommand.command",
+        "TargetCommand.has_chase",
+        "TargetCommand.has_dodge",
+        "TargetCommand._height_field",
+        "TargetCommand.ground_under_base",
+        "TargetCommand.base_local",
+        "TargetCommand.scan",
+        "TargetCommand.obstacle_layout",
+        "TargetCommand.lidar",
+        "TargetCommand.obstacle_penetration",
+        "TargetCommand._place_obstacles",
+        "TargetCommand.head_pos_w",
+        "TargetCommand.head_ball_dist",
+        "TargetCommand.geometry",
+        "TargetCommand.body_clearance",
+        "TargetCommand.predicted_body_clearance",
+        "TargetCommand._update_kind_curriculum",
+        "TargetCommand._update_metrics",
+        "TargetCommand._resample_command",
+        "TargetCommand.reset",
+        "TargetCommand.compute",
+        "TargetCommand._advance",
+        "TargetCommand._update_command",
+        "TargetCommand._debug_vis_impl",
+        "TargetCommandCfg.build"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/env/env_cfg.py",
+      "port_path": "src/as2_supermimic/env/env_cfg.py",
+      "upstream_sha256": "f94ec85604030dfc85a93fd8faf45ca19b9651c0da16851ec2adafc328d5bf48",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "_quiet_solver_warnings",
+        "_obstacle_entity"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/env/mdp.py",
+      "port_path": "src/as2_supermimic/env/mdp.py",
+      "upstream_sha256": "f6b59f353af8d8de37ff6b1e78b60a7e7b6eb6ec8db4b49e868aabec0eb7ffa1",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "_term",
+        "_to_chase_ball",
+        "height_scan",
+        "lidar",
+        "chase_approach",
+        "chase_tag",
+        "facing_target",
+        "evade_danger",
+        "evade_anticipate",
+        "hit",
+        "joint_deviation_l2",
+        "outside_arena",
+        "tilt_rate_l2",
+        "_ground_under",
+        "upright",
+        "base_height_low",
+        "obstacle_contact",
+        "terrain_levels_by_progress"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/env/terrains.py",
+      "port_path": "src/as2_supermimic/env/terrains.py",
+      "upstream_sha256": "cb89a7a60b5ae0cf151a0dbc2f9e5c2cb49db323055a8201c0b93328951c984c",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "clean_look",
+        "rough_terrain"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/robot/__init__.py",
+      "port_path": "src/as2_supermimic/robot/__init__.py",
+      "upstream_sha256": "bb4dd089d450be36448c8039ae8f89e3788cdc09ac5594354272359cfdeeafe2",
+      "namespace_only_change": false,
+      "unchanged_definitions": []
+    },
+    {
+      "upstream_path": "go2_supermimic/robot/go2.py",
+      "port_path": "src/as2_supermimic/robot/go2.py",
+      "upstream_sha256": "2293f2120f8c6cdb627212569b852cf8daaffbd892db9ac413bc35e37c1c9953",
+      "namespace_only_change": false,
+      "unchanged_definitions": []
+    },
+    {
+      "upstream_path": "go2_supermimic/supermimic/__init__.py",
+      "port_path": "src/as2_supermimic/supermimic/__init__.py",
+      "upstream_sha256": "e758f4a0e2b1975fb586f81ff1f082a07412fed6d024db6b2bcf5735cff37953",
+      "namespace_only_change": true,
+      "unchanged_definitions": []
+    },
+    {
+      "upstream_path": "go2_supermimic/supermimic/buffer.py",
+      "port_path": "src/as2_supermimic/supermimic/buffer.py",
+      "upstream_sha256": "0a6a307a25eb2b80729ede47a237b84b152ae1edb52a78a566066032019ec7bb",
+      "namespace_only_change": true,
+      "unchanged_definitions": [
+        "pack_generator",
+        "unpack_generator",
+        "ReplayBuffer.__init__",
+        "ReplayBuffer.add",
+        "ReplayBuffer._phys",
+        "ReplayBuffer.sample_windows",
+        "ReplayBuffer.sample_states",
+        "WindowArchive.__init__",
+        "WindowArchive.add",
+        "WindowArchive.sample"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/supermimic/driver.py",
+      "port_path": "src/as2_supermimic/supermimic/driver.py",
+      "upstream_sha256": "e39166ddccd06ded3c283c1d36822f6ab19448a524fdf83e47c24b1f91b1588a",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "ActorDriver.act"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/supermimic/imagine.py",
+      "port_path": "src/as2_supermimic/supermimic/imagine.py",
+      "upstream_sha256": "d4d409f8ef9ee23e35b395f2852abf214df1e2af4a10e1f654889d88bdc2b565",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "ImagineCfg.__post_init__",
+        "planar_velocity_world",
+        "Imagination.__init__",
+        "Imagination.fall_prob",
+        "Imagination.relief",
+        "Imagination.scan",
+        "Imagination.lidar",
+        "Imagination.critic_input",
+        "Imagination._step",
+        "Imagination.rollout",
+        "Imagination.gae_targets"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/supermimic/state.py",
+      "port_path": "src/as2_supermimic/supermimic/state.py",
+      "upstream_sha256": "9fe162a75e70a4e7449fb0da65a01c3ac74a6762edf4e398c70b4107daf47f74",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "feet_world_z",
+        "limb_points_world",
+        "obs_terms",
+        "limb_positions_w",
+        "robot_state",
+        "planar_pose",
+        "pose_delta",
+        "apply_pose_delta",
+        "ContextReader._ipos",
+        "ContextReader.read",
+        "obs_frame",
+        "push_history"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/supermimic/train.py",
+      "port_path": "src/as2_supermimic/supermimic/train.py",
+      "upstream_sha256": "40db0947263f9e48637072c84d89405b4056e58ac45572e9f0e6e8ddbfdf554b",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "Actor.__init__",
+        "Actor.forward",
+        "Critic.__init__",
+        "Critic.forward",
+        "clip_grads",
+        "lr_at",
+        "expand_actor_new_terms",
+        "expand_world_model_scan",
+        "Trainer.collect",
+        "Trainer.driver_scale",
+        "Trainer._relief",
+        "Trainer._gather",
+        "Trainer._wm_batch",
+        "Trainer.fit_world_model",
+        "Trainer.improve_policy"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/supermimic/world_model.py",
+      "port_path": "src/as2_supermimic/supermimic/world_model.py",
+      "upstream_sha256": "77cd10f39830214e1462897fb305b5b2ee69bda638e06ac5cfce806af3069145",
+      "namespace_only_change": true,
+      "unchanged_definitions": [
+        "RunningNorm.__init__",
+        "RunningNorm.update",
+        "RunningNorm.forward",
+        "RunningNorm.unnormalize",
+        "mlp",
+        "WorldModel.__init__",
+        "WorldModel._inputs",
+        "WorldModel.update_stats",
+        "WorldModel.forward",
+        "WorldModel.loss"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/target/__init__.py",
+      "port_path": "src/as2_supermimic/target/__init__.py",
+      "upstream_sha256": "33cd59f81bec227820332b04f1e6bd3140af104b6782b8129458461d86b96019",
+      "namespace_only_change": true,
+      "unchanged_definitions": []
+    },
+    {
+      "upstream_path": "go2_supermimic/target/collision.py",
+      "port_path": "src/as2_supermimic/target/collision.py",
+      "upstream_sha256": "e0d80927c8680ad28f6f2749c1ed49e0a911634db039b8051b95b7241483d20b",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "bar_axis",
+        "robot_geometry",
+        "_trunk_distance",
+        "_segment_distance",
+        "_softmin",
+        "robot_clearance",
+        "dodge_clearance",
+        "_dodge_close",
+        "dodge_shaping",
+        "predicted_clearance",
+        "tag_activation",
+        "obstacle_penetration"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/target/generator.py",
+      "port_path": "src/as2_supermimic/target/generator.py",
+      "upstream_sha256": "e69cffe106214b21f3481ee133d715670ca813e1a27915bdb57b1bfe377ead8e",
+      "namespace_only_change": false,
+      "unchanged_definitions": [
+        "_unit",
+        "_uniform_like",
+        "_carried",
+        "BallTarget.__init__",
+        "BallTarget.set_kind_weights",
+        "BallTarget._uniform",
+        "BallTarget._lerp_range",
+        "BallTarget.set_progress",
+        "BallTarget.state",
+        "BallTarget.spawn",
+        "BallTarget.respawn_dodge",
+        "BallTarget.deflect",
+        "BallTarget.resample",
+        "BallTarget.step",
+        "advance",
+        "dodge_shape"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/target/interface.py",
+      "port_path": "src/as2_supermimic/target/interface.py",
+      "upstream_sha256": "afad293b55bd166f530d6ea5bddaa21346b002e824737002438f51314bf5a2d6",
+      "namespace_only_change": true,
+      "unchanged_definitions": [
+        "yaw_rotate_inverse",
+        "pack_slot",
+        "oracle_observation"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/target/obstacles.py",
+      "port_path": "src/as2_supermimic/target/obstacles.py",
+      "upstream_sha256": "ab1cb9f5685bd79b7a74ed6356e369cfb35dd5852862576c69d1be1a13058257",
+      "namespace_only_change": true,
+      "unchanged_definitions": [
+        "half_sizes",
+        "bounding_radius",
+        "_rot",
+        "_rot_back",
+        "unpack",
+        "sample_layout",
+        "sdf",
+        "_slab",
+        "lidar",
+        "line_of_sight",
+        "push_out"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/target/terrain.py",
+      "port_path": "src/as2_supermimic/target/terrain.py",
+      "upstream_sha256": "2d5c5ef36b8acc36e7d88859361e6290c523943e44dad84622373a1cf99bfaf6",
+      "namespace_only_change": true,
+      "unchanged_definitions": [
+        "scan_offsets",
+        "HeightField.__init__",
+        "HeightField.sample",
+        "HeightField.save",
+        "HeightField.load",
+        "build_height_field",
+        "env_height_field",
+        "ground",
+        "surface",
+        "scan_world",
+        "relief"
+      ]
+    },
+    {
+      "upstream_path": "go2_supermimic/viz.py",
+      "port_path": "src/as2_supermimic/viz.py",
+      "upstream_sha256": "bafa4b9b36de9d5612aaef0812f9c573bfe34bd2dd06aafdaeb1e7a1a0c9709a",
+      "namespace_only_change": true,
+      "unchanged_definitions": [
+        "polish_renderer",
+        "font",
+        "status_lines",
+        "status_card",
+        "DepthPanorama.__init__",
+        "DepthPanorama.render",
+        "DepthPanorama.pixel",
+        "_colorize",
+        "lidar_frame",
+        "compose_panel"
+      ]
+    }
+  ]
+}

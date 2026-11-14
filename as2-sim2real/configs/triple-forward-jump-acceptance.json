@@ -1,0 +1,23 @@
+{
+  "scope": "Three physical forward jumps in one uninterrupted rollout; not hardware qualification",
+  "expected_jumps": 3,
+  "minimum_counted_airborne_seconds": 0.04,
+  "minimum_airborne_seconds": 0.08,
+  "minimum_airborne_forward_m": 0.08,
+  "minimum_final_forward_m": 0.30,
+  "minimum_height_gain_m": 0.04,
+  "minimum_all_feet_clearance_m": 0.005,
+  "minimum_interjump_ground_seconds": 0.10,
+  "maximum_interjump_ground_seconds": 3.0,
+  "maximum_tilt_rad": 0.65,
+  "maximum_lateral_displacement_m": 0.15,
+  "maximum_joint_speed_rad_s": 30.0,
+  "maximum_torque_saturation_fraction": 0.0,
+  "final_stable_seconds": 2.0,
+  "final_max_speed_m_s": 0.05,
+  "final_max_angular_speed_rad_s": 0.15,
+  "final_max_height_error_m": 0.025,
+  "final_max_joint_error_rad": 0.12,
+  "nonfoot_ground_contacts": 0,
+  "joint_limit_violations": 0
+}

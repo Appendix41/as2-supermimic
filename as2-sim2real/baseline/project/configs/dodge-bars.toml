@@ -1,0 +1,9 @@
+# Warm-start from the AS2 ball-dodging stage.
+[train]
+task = "As2-Chase-Flat"
+stage = "dodge_bars"
+iterations = 20000
+warmup_iterations = 500
+actor_lr_scale = 0.5
+target_curriculum_iterations = 15000
+run_name = "as2-dodge-bars"

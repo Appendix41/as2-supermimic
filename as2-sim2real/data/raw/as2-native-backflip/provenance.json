@@ -1,0 +1,138 @@
+{
+  "kind": "locally-generated-scripted-PD-physics",
+  "robot": "AS2",
+  "motion": "standing-backflip-land-stand",
+  "upstream_motion": false,
+  "learned_policy": false,
+  "parameters": {
+    "crouch_front_thigh": 1.7976871323405905,
+    "crouch_front_calf": -2.5476356680141055,
+    "crouch_rear_thigh": 0.9427097828602226,
+    "crouch_rear_calf": -2.459928687208056,
+    "launch_front_thigh": -0.055911423600786936,
+    "launch_front_calf": -0.8622559722223603,
+    "launch_rear_thigh": 0.07026227358869253,
+    "launch_rear_calf": -1.3413678157779945,
+    "drive_front_thigh": -0.06244766001496416,
+    "drive_front_calf": -2.4068714629865573,
+    "drive_rear_thigh": 1.8431045227695089,
+    "drive_rear_calf": -0.9325270082497705,
+    "tuck_front_thigh": 1.2173785946562834,
+    "tuck_front_calf": -2.554376051133036,
+    "tuck_rear_thigh": 1.2795694916327944,
+    "tuck_rear_calf": -2.233939304960688,
+    "land_front_thigh": 0.6527968339853448,
+    "land_front_calf": -2.117116222305932,
+    "land_rear_thigh": 0.5971434627408271,
+    "land_rear_calf": -1.2427116604195625,
+    "launch_s": 0.05826220503838378,
+    "drive_s": 0.111639711495125,
+    "tuck_s": 0.058697322072611496,
+    "flight_s": 0.5016993518266917,
+    "land_s": 0.2724022796945682
+  },
+  "source_sha256": {
+    "src/as2_motion_imitation/backflip_audit.py": "dafb49e519787f092517e2a6c3f86ed5a51181156f2e6b80e83f7123852366b2",
+    "src/as2_motion_imitation/prepare_backflip.py": "274adf78d8cb1750f9957a79972839e574379c5073d0baa8590ecc6317e24aaf",
+    "src/as2_motion_imitation/physics.py": "b6ffc85cb049a7a072c83a0450bf16d27341bb23e297361d80e7daeb059888f3",
+    "src/as2_motion_imitation/motion.py": "6ed02bcf4d19fd5391d7ebb86c6e1a10602c817fb92b38ec49fca0193e957be0",
+    "outputs/backflip/candidate-robust-01.json": "1dbdf2753110a8092cd982ba7cce7b6075d9fcba966bfb134e5674df6a6eb2cd",
+    "configs/backflip-acceptance.json": "01dfaa3ec97f3b009ff2f677a7b287bf3da4fa88f6e23ce0cdbc48ce94148009"
+  },
+  "seed": 0,
+  "settling_seconds": 3.0,
+  "duration_seconds": 8.0,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "diagnostic_hz": 500,
+  "state_frame": "lateral-axis-v2",
+  "pose_writes_after_reset": false,
+  "external_forces": false,
+  "original_gains_mass_and_torque_limits": true,
+  "self_collision_enabled": false,
+  "physics_backend": "CPU MuJoCo",
+  "nominal_metrics": {
+    "passed": true,
+    "checks": {
+      "airborne": true,
+      "airborne_rotation": true,
+      "total_rotation": true,
+      "lateral": true,
+      "rotation_axis": true,
+      "standing": true,
+      "contacts": true,
+      "limits": true,
+      "speed": true,
+      "finite": true
+    },
+    "airborne_seconds": 0.4859999999999465,
+    "airborne_back_rotation_rad": 4.646724678302339,
+    "total_back_rotation_rad": 6.2576853417222384,
+    "peak_height_m": 0.6582351439084255,
+    "final_forward_m": -0.67262005596305,
+    "maximum_lateral_m": 0.026542815340033672,
+    "minimum_lateral_axis_alignment": 0.9988405330999731,
+    "final_stable_seconds": 4.288,
+    "nonfoot_contact_samples": 0,
+    "joint_limit_samples": 0,
+    "max_joint_speed_rad_s": 17.498921206415154,
+    "peak_abs_torque_nm": 75.0,
+    "torque_saturation_fraction": 0.00010414063150878946,
+    "takeoff_s": 1.708,
+    "landing_s": 2.194
+  },
+  "perturbation_successes": 20,
+  "perturbation_trials": 20,
+  "max_abs_normalized_action": 3.849631622499468,
+  "actuator_force_limits_nm": [
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ]
+  ],
+  "license_note": "Locally generated simulation data; model notices remain in baseline."
+}

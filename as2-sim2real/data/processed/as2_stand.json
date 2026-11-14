@@ -1,0 +1,107 @@
+{
+  "schema": "as2-motion-v1",
+  "robot": {
+    "id": "unitree-as2-supermimic-v1",
+    "asset_sha256": "bdfe2c6dc4c0f29aaf51992cdc7c40c7302f4e2e04305a71ee061b04216e55c8",
+    "joints": [
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint"
+    ],
+    "limbs": [
+      "FR",
+      "FL",
+      "RR",
+      "RL"
+    ],
+    "root": "base_link",
+    "default_joint_pos": {
+      ".*thigh_joint": 0.9,
+      ".*calf_joint": -1.8,
+      ".*R_hip_joint": 0.1,
+      ".*L_hip_joint": -0.1
+    },
+    "action_scale": 0.25,
+    "actuators": [
+      [
+        [
+          ".*_hip_joint"
+        ],
+        40.0,
+        2.0,
+        50.0,
+        0.026
+      ],
+      [
+        [
+          ".*_thigh_joint"
+        ],
+        40.0,
+        2.0,
+        50.0,
+        0.026
+      ],
+      [
+        [
+          ".*_calf_joint"
+        ],
+        60.0,
+        3.0,
+        75.0,
+        0.038
+      ]
+    ],
+    "geometry": {
+      "FOOT_RADIUS": 0.026,
+      "HEAD_OFFSET": 0.318,
+      "TRUNK_X": [
+        -0.25,
+        0.32
+      ],
+      "TRUNK_Y": [
+        -0.112,
+        0.112
+      ],
+      "TRUNK_BELOW_BASE": 0.067,
+      "TRUNK_ABOVE_BASE": 0.135,
+      "THIGH_RADIUS": 0.09,
+      "CALF_RADIUS": 0.04,
+      "STAND_HEIGHT": 0.3,
+      "CROUCH_HEIGHT": 0.25,
+      "MIN_BASE_HEIGHT": 0.2
+    }
+  },
+  "units": {
+    "length": "m",
+    "angle": "rad",
+    "time": "s"
+  },
+  "axes": "x-forward-y-left-z-up",
+  "quaternion": "wxyz",
+  "sha256": "aed622858cde7e78d79ae762da2eeb3d984007426c39dd586a63c44f0e6e6cdb",
+  "provenance": {
+    "kind": "static-FK-control-test",
+    "upstream_motion": false,
+    "robot": "AS2",
+    "seed": 0,
+    "generator": "src/as2_motion_imitation/prepare.py",
+    "motion": "stand",
+    "thigh_offset_rad": 0.13,
+    "calf_offset_rad": -0.26,
+    "physics_dt": 0.002,
+    "control_dt": 0.02,
+    "settling_seconds": 3.0,
+    "duration_seconds": 8.0,
+    "pose_writes_after_reset": false,
+    "license_note": "Locally generated simulation data; model notices remain in baseline."
+  }
+}

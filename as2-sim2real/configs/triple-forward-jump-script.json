@@ -1,0 +1,6 @@
+{
+  "count": 3,
+  "period_seconds": 2.8,
+  "tail_duration_seconds": 8.0,
+  "single_jump_parameters": "configs/forward-jump-script.json"
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": {
+    "airborne": true,
+    "airborne_rotation": true,
+    "total_rotation": true,
+    "lateral": true,
+    "rotation_axis": true,
+    "standing": true,
+    "contacts": true,
+    "limits": true,
+    "speed": true,
+    "finite": true
+  },
+  "airborne_seconds": 0.4859999999999465,
+  "airborne_back_rotation_rad": 4.646724678302339,
+  "total_back_rotation_rad": 6.2576853417222384,
+  "peak_height_m": 0.6582351439084255,
+  "final_forward_m": -0.67262005596305,
+  "maximum_lateral_m": 0.026542815340033672,
+  "minimum_lateral_axis_alignment": 0.9988405330999731,
+  "final_stable_seconds": 4.288,
+  "nonfoot_contact_samples": 0,
+  "joint_limit_samples": 0,
+  "max_joint_speed_rad_s": 17.498921206415154,
+  "peak_abs_torque_nm": 75.0,
+  "torque_saturation_fraction": 0.00010414063150878946,
+  "takeoff_s": 1.708,
+  "landing_s": 2.194
+}

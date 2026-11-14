@@ -1,0 +1,14 @@
+[train]
+output = "outputs/training/crouch-smoke"
+num_envs = 4
+iterations = 4
+warmup_iterations = 1
+initial_collect = 40
+collect_steps = 2
+buffer_len = 80
+wm_batch = 8
+imag_batch = 4
+wm_hidden = [64, 64]
+actor_hidden = [64, 32]
+critic_hidden = [64, 32]
+log_interval = 1

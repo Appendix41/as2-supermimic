@@ -1,0 +1,12 @@
+{
+  "scope": "Saved-trace recheck and actor command replay, not additional policy trials",
+  "checkpoint_sha256": "8bd90ead429a10781371232ab9d98a20ec8b37bc9e8534a7823d5f5a747d9898",
+  "motion_sha256": "33f3524fb95687e6c16948deba218264a5bf11afa552da8b5f4f31941f5d5f57",
+  "trials": 20,
+  "successes": 0,
+  "replay_seed": 100,
+  "replay_max_abs_errors": {
+    "qpos": 0.0,
+    "qvel": 0.0
+  }
+}

@@ -1,0 +1,11 @@
+# Warm-start from AS2 flat; optional --expert-policy must also be AS2.
+[train]
+task = "As2-Chase-Terrain"
+stage = "terrain"
+iterations = 20000
+warmup_iterations = 1000
+wm_updates = 4
+actor_lr_scale = 0.3
+target_curriculum_iterations = 12000
+terrain_curriculum_iterations = 12000
+run_name = "as2-terrain"

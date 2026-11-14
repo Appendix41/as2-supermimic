@@ -1,0 +1,146 @@
+{
+  "kind": "locally-generated-scripted-PD-physics",
+  "upstream_motion": false,
+  "learned_policy": false,
+  "robot": "AS2",
+  "motion": "stand-crouch-forward-jump-land-stand",
+  "seed": 0,
+  "generator": "src/as2_motion_imitation/prepare_jump.py",
+  "generator_sha256": "fe01f8387022f14ae66575f71e0961ffbd36e451c57c758f6e277d502231c162",
+  "parameters": {
+    "crouch": 1.22122940821044,
+    "crouch_lean": 0.14907278804174423,
+    "crouch_front": 0.07529827593383262,
+    "extend": 0.5618945858301938,
+    "push_lean": 0.4,
+    "push_front": 0.10476151114170561,
+    "thrust_seconds": 0.16,
+    "extended_seconds": 0.16,
+    "flight_bend": 0.8362224433617306,
+    "flight_lean": -0.07649241441845334,
+    "flight_front": -0.10899781755828625,
+    "flight_seconds": 0.15449308017133145
+  },
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "settling_seconds": 3.0,
+  "duration_seconds": 8.0,
+  "pose_writes_after_reset": false,
+  "external_forces": false,
+  "original_gains_mass_and_torque_limits": true,
+  "physics_backend": "CPU MuJoCo",
+  "diagnostic_hz": 500,
+  "self_collision_enabled": false,
+  "self_collision_note": "Unchanged baseline mask; self-intersection is not certified.",
+  "selection": "Fixed supplied script parameters; no policy learning in this capture",
+  "acceptance_file": "configs/forward-jump-acceptance.json",
+  "acceptance_sha256": "8737de80769621cbab83505b3049d6e87ac1664664127edd278e664d94236c19",
+  "nominal_metrics": {
+    "passed": true,
+    "airborne_seconds": 0.3279999999999639,
+    "airborne_forward_m": 0.11909792657579582,
+    "final_forward_m": 0.25193698446623203,
+    "height_gain_m": 0.22574985003715342,
+    "height_start_m": 0.27204161478335365,
+    "height_min_m": 0.15428654317379106,
+    "height_max_m": 0.49779146482050707,
+    "height_final_m": 0.2703912987807726,
+    "max_all_feet_clearance_m": 0.07287175832907447,
+    "takeoff_time_s": 2.0,
+    "last_airborne_time_s": 2.3259999999999996,
+    "flight_intervals": [
+      {
+        "start_s": 2.0,
+        "last_airborne_s": 2.3259999999999996,
+        "duration_s": 0.3279999999999639
+      }
+    ],
+    "max_tilt_rad": 0.3419344161487466,
+    "max_lateral_m": 0.007762827736552963,
+    "final_stable_seconds": 4.814,
+    "nonfoot_contact_samples": 0,
+    "joint_limit_samples": 0,
+    "max_joint_speed_rad_s": 11.942194032098213,
+    "torque_saturation_sample_fraction": 0.0,
+    "peak_abs_torque_nm": [
+      2.8797886477619783,
+      2.720797347401893,
+      2.6992741431258893,
+      2.525937550114735,
+      11.190535360766614,
+      11.078842254930713,
+      12.958266130926017,
+      13.199295839239326,
+      42.533971851626205,
+      41.9868149680602,
+      40.00022459922491,
+      39.558907266291584
+    ]
+  },
+  "actuator_joint_names": [
+    "FL_hip_joint",
+    "FR_hip_joint",
+    "RL_hip_joint",
+    "RR_hip_joint",
+    "FL_thigh_joint",
+    "FR_thigh_joint",
+    "RL_thigh_joint",
+    "RR_thigh_joint",
+    "FL_calf_joint",
+    "FR_calf_joint",
+    "RL_calf_joint",
+    "RR_calf_joint"
+  ],
+  "actuator_force_limits_nm": [
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -50.0,
+      50.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ],
+    [
+      -75.0,
+      75.0
+    ]
+  ],
+  "max_abs_normalized_action": 2.7048433133584497,
+  "license_note": "Locally generated simulation data; model notices remain in baseline."
+}

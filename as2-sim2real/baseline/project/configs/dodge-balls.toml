@@ -1,0 +1,9 @@
+# Warm-start from a validated AS2 chase training checkpoint with --resume.
+[train]
+task = "As2-Chase-Flat"
+stage = "dodge_balls"
+iterations = 15000
+warmup_iterations = 500
+actor_lr_scale = 0.5
+target_curriculum_iterations = 10000
+run_name = "as2-dodge-balls"
