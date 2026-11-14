@@ -7,7 +7,7 @@
   "author_reports_hardware_jump_success": true,
   "historical_run_embeds_source_or_actor_hashes": false,
   "source_snapshot_postdates_selected_run": true,
-  "hardware_video_included": false,
+  "hardware_video_included": true,
   "bundle_attachment": "as2-proprio-actor-bundle",
   "current_agx_bundle_matches_archived_export": true,
   "checkpoint_sha256_from_bundle_manifest": "c939893b8c0021f48a5952dcd94221e5c9a8455adc8b3ecc1c958773b8d66b38",
@@ -67,5 +67,12 @@
       "bytes": 8403,
       "snapshot_mtime": "2026-11-12 19:23:17.976944200 +0800"
     }
-  ]
+  ],
+  "hardware_video": {
+    "file": "docs/media/hardware-single-jump.mp4",
+    "sha256": "84e582aaa0e32e4f4351ce7106c68f7c0be202fae8476b99291406907f21d644",
+    "provenance": "docs/media/hardware-video.json",
+    "author_supplied": true,
+    "historical_run_identity_confirmed": false
+  }
 }

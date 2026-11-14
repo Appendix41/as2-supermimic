@@ -70,8 +70,9 @@ The imported later AGX record reports `completed`, 400 policy steps in 7.98 s,
 and return of control to `ai`. The deployed actor bundle matches the local
 proprioceptive export byte for byte.
 
-Only one selected completed run is published; no total hardware success rate
-is inferred. The log does not measure flight or displacement, and no hardware
-video was available in the inspected project. The current controller snapshot
-postdates the run and the log does not embed model/source hashes.
+The author has also supplied a [real-robot video](media/hardware-single-jump.mp4).
+This separate clip is not timestamp-matched to the selected run log.
+Only one selected completed run record is published; no total hardware success
+rate is inferred. The log does not measure flight or displacement. The current
+controller snapshot postdates the run and the log does not embed model/source hashes.
 See [integration and evidence](sim2real-integration.md).

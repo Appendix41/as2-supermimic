@@ -1,0 +1,151 @@
+{
+  "scope": "README GIF previews; full MP4s remain available.",
+  "training_previews": "Original-speed excerpts from each checkpoint; each chapter retains simulation time 1.2 through 3.6 s. The landing-failure preview uses the two original-speed chapters, not their slow-motion replays.",
+  "hardware_preview": "Complete author-supplied clip at original speed; GIF has no audio.",
+  "previews": [
+    {
+      "file": "single-jump-training-stages.gif",
+      "sha256": "b91223e3958248a6fe4bca428b672ace36fd712cb1a568c6aa0b458f9574e297",
+      "bytes": 748924,
+      "source": "single-jump-training-stages.mp4",
+      "source_sha256": "50592badfb6c2ee36d32cb1f05f30d302aaed20037d5335783788a22e6dee608",
+      "source_intervals_s": [
+        [
+          1.2,
+          3.6
+        ],
+        [
+          9.24,
+          11.64
+        ],
+        [
+          17.28,
+          19.68
+        ],
+        [
+          25.32,
+          27.72
+        ]
+      ],
+      "playback_speed": 1,
+      "loop": "infinite",
+      "fps": 12,
+      "size": [
+        480,
+        312
+      ],
+      "decoded_frames": 115,
+      "distinct_frames": 115,
+      "duration_s": 9.58,
+      "palette_colors": 96,
+      "dither": "bayer",
+      "complete_source_video": false
+    },
+    {
+      "file": "backflip-training-stages.gif",
+      "sha256": "d126f716ea29551c44bfe3ffd550fbba936341b2490ae3a9d2dec3f8f588701b",
+      "bytes": 3919898,
+      "source": "backflip-training-stages.mp4",
+      "source_sha256": "88ecbc7880e8d2b909651c32d5d874a21ffcda4e571673c2a216d9f246a4711e",
+      "source_intervals_s": [
+        [
+          1.2,
+          3.6
+        ],
+        [
+          9.24,
+          11.64
+        ],
+        [
+          17.28,
+          19.68
+        ],
+        [
+          25.32,
+          27.72
+        ],
+        [
+          33.36,
+          35.76
+        ],
+        [
+          41.4,
+          43.8
+        ],
+        [
+          49.44,
+          51.84
+        ]
+      ],
+      "playback_speed": 1,
+      "loop": "infinite",
+      "fps": 12,
+      "size": [
+        480,
+        320
+      ],
+      "decoded_frames": 202,
+      "distinct_frames": 202,
+      "duration_s": 16.83,
+      "palette_colors": 96,
+      "dither": "bayer",
+      "complete_source_video": false
+    },
+    {
+      "file": "backflip-landing-failures.gif",
+      "sha256": "af6c8a6e19077fe1741252d3c40027e2765b3c9391fa163aa1ef53c0e8f5c9ca",
+      "bytes": 1325791,
+      "source": "backflip-landing-failures.mp4",
+      "source_sha256": "0078a7ae0687fbbe462115cba56eb4955838b9581c0f6f1474b1b10bf85d1433",
+      "source_intervals_s": [
+        [
+          1.2,
+          3.6
+        ],
+        [
+          15.64,
+          18.04
+        ]
+      ],
+      "playback_speed": 1,
+      "loop": "infinite",
+      "fps": 12,
+      "size": [
+        480,
+        320
+      ],
+      "decoded_frames": 58,
+      "distinct_frames": 58,
+      "duration_s": 4.83,
+      "palette_colors": 96,
+      "dither": "bayer",
+      "complete_source_video": false
+    },
+    {
+      "file": "hardware-single-jump.gif",
+      "sha256": "34749e004be8fee27bc30218426d1aa0270132471c5054feb34766ca345187ca",
+      "bytes": 6877648,
+      "source": "hardware-single-jump.mp4",
+      "source_sha256": "84e582aaa0e32e4f4351ce7106c68f7c0be202fae8476b99291406907f21d644",
+      "source_intervals_s": [
+        [
+          0,
+          5.866666666666666
+        ]
+      ],
+      "playback_speed": 1,
+      "loop": "infinite",
+      "fps": 12,
+      "size": [
+        640,
+        360
+      ],
+      "decoded_frames": 70,
+      "distinct_frames": 70,
+      "duration_s": 5.83,
+      "palette_colors": 96,
+      "dither": "bayer",
+      "complete_source_video": true
+    }
+  ]
+}

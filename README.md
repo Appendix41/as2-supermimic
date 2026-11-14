@@ -23,12 +23,13 @@ has learned an airborne backward turn.
 
 | Single-Jump Stages | Backflip Stages | Backflip Landing Failures |
 | :---: | :---: | :---: |
-| [![Single-jump training stages](docs/media/single-jump-training-stages.jpg)](docs/media/single-jump-training-stages.mp4) | [![Backflip training stages](docs/media/backflip-training-stages.jpg)](docs/media/backflip-training-stages.mp4) | [![Backflip landing failures](docs/media/backflip-landing-failures.jpg)](docs/media/backflip-landing-failures.mp4) |
+| [![Single-jump training stages](docs/media/single-jump-training-stages.gif)](docs/media/single-jump-training-stages.mp4) | [![Backflip training stages](docs/media/backflip-training-stages.gif)](docs/media/backflip-training-stages.mp4) | [![Backflip landing failures](docs/media/backflip-landing-failures.gif)](docs/media/backflip-landing-failures.mp4) |
 | [Iterations 0, 400, 800, 1000 · 32.16 s](docs/media/single-jump-training-stages.mp4) | [Seven stages, iteration 0 to 2400 · 56.28 s](docs/media/backflip-training-stages.mp4) | [Iterations 1800 and 2000 · 28.88 s](docs/media/backflip-landing-failures.mp4) |
 
 These are saved checkpoint evaluations, including early attempts without takeoff
-and failed landings. Stage comparisons play at original speed; the landing reel
-also includes quarter-speed, 1.5x enlarged replays.
+and failed landings. The GIFs show original-speed stage excerpts; click through
+for the full recordings. The full landing reel also includes quarter-speed,
+1.5x enlarged replays.
 
 ## Training Setup
 
@@ -65,7 +66,7 @@ See [method and observation contracts](docs/method.md).
 | Single forward jump | Reference generation, training, final checkpoint, physics evaluation |
 | Experimental backflip | Reference, training, learned rotation demonstration, original evaluation records |
 | Proprioceptive single jump | Training, exported NumPy actor, deployment interfaces |
-| Hardware single jump | Later controller snapshot, matching deployed bundle, one completed run record |
+| Hardware single jump | Later controller snapshot, matching deployed bundle, run record, and real-robot footage |
 
 ## Sim-to-Real
 
@@ -74,9 +75,15 @@ is in [hardware-single-jump](hardware-single-jump/README.md). The included log
 records **400 policy steps in 7.98 seconds** and a return of control to `ai`.
 The deployed bundle matches the proprioceptive export.
 
-No hardware video is included. The source snapshot postdates the run, and the
-log has no source or model hashes. See [deployment notes](docs/sim2real-integration.md)
-for the version history and operating limits. Hardware scope is one forward jump.
+Author-supplied footage of the AS2 forward jump is shown below. The GIF retains
+the complete clip at its original speed.
+
+[![AS2 real-robot forward jump](docs/media/hardware-single-jump.gif)](docs/media/hardware-single-jump.mp4)
+
+[Full hardware clip · 5.87 s · original audio](docs/media/hardware-single-jump.mp4)
+
+See [deployment notes](docs/sim2real-integration.md) for the relationship between
+the training artifacts, controller snapshot, and recorded run.
 
 ## Evaluate A Policy
 

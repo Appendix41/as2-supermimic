@@ -1,0 +1,60 @@
+{
+  "author_supplied": true,
+  "received_date": "2026-11-14",
+  "description": "AS2 real-robot single forward jump",
+  "source_sha256": "38a5b937c960d30cbe37ab951fdc835c18c24267607b9e2e971e4d1e65cece53",
+  "source_bytes": 354755,
+  "source_video": {
+    "codec": "hevc",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "decoded_frames": 176,
+    "video_duration_s": 5.866666666666666,
+    "container_duration_s": 5.87,
+    "audio_codec": "aac"
+  },
+  "published_video": {
+    "file": "hardware-single-jump.mp4",
+    "sha256": "84e582aaa0e32e4f4351ce7106c68f7c0be202fae8476b99291406907f21d644",
+    "bytes": 1029777,
+    "codec": "h264",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "decoded_frames": 176,
+    "video_duration_s": 5.866666666666666,
+    "container_duration_s": 5.87,
+    "audio_codec": "aac"
+  },
+  "transformation": "Full video transcoded from HEVC to H.264 for web playback; original AAC audio copied. No temporal cuts, speed changes, spatial crops or motion interpolation. Nonessential container metadata removed.",
+  "preview": {
+    "file": "hardware-single-jump.gif",
+    "sha256": "34749e004be8fee27bc30218426d1aa0270132471c5054feb34766ca345187ca",
+    "bytes": 6877648,
+    "source": "hardware-single-jump.mp4",
+    "source_sha256": "84e582aaa0e32e4f4351ce7106c68f7c0be202fae8476b99291406907f21d644",
+    "source_intervals_s": [
+      [
+        0,
+        5.866666666666666
+      ]
+    ],
+    "playback_speed": 1,
+    "loop": "infinite",
+    "fps": 12,
+    "size": [
+      640,
+      360
+    ],
+    "decoded_frames": 70,
+    "distinct_frames": 70,
+    "duration_s": 5.83,
+    "palette_colors": 96,
+    "dither": "bayer",
+    "complete_source_video": true
+  },
+  "historical_log_identity_confirmed": false,
+  "source_and_model_hashes_bound_to_video": false,
+  "recording_date_confirmed": false
+}

@@ -54,8 +54,8 @@ timings, recorded device headers, and source-file hashes.
 ## Stage Videos
 
 These videos replay evaluations of saved checkpoints, not a continuous recording
-of the 4096 collection environments. Every stage comparison retains the complete
-source rollout at original speed.
+of the 4096 collection environments. Each stage-comparison MP4 retains the
+complete source rollouts at original speed; README GIFs use shorter excerpts.
 
 | Video | Checkpoint Iterations | Duration |
 | --- | --- | ---: |

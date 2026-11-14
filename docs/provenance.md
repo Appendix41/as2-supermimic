@@ -14,8 +14,13 @@ Publication edits:
 - Public metric JSON files remove the workstation's absolute project prefix
   from string values. Numerical results and acceptance booleans are unchanged.
   Both source and public-file hashes are recorded.
-- GIF previews are downsampled from complete actor-only simulation videos,
-  without changing the playback rate or synthesizing motion.
+- Final-policy GIFs retain the complete actor-only simulation videos.
+  Training GIFs use explicitly documented stage excerpts. Both are downsampled
+  without changing playback speed or synthesizing motion.
+- The author-supplied hardware video is transcoded in full from HEVC to H.264,
+  retaining its original audio. Its GIF shows the complete supplied clip.
+  Original/published hashes and conversion details are in
+  [hardware video provenance](media/hardware-video.json).
 - Python comment/docstring edits record both source and published hashes.
   ASTs and non-comment tokens are compared with docstrings normalized.
   Imports, statements, parameters and ordinary string values must match.

@@ -9,8 +9,9 @@ No deployment program, DDS client, or robot service command was run during
 publication preparation.
 
 The author reports a successful real-robot single forward jump. This release
-contains its later controller snapshot and one completed run record, not
-triple-jump records or real-robot backflip control.
+contains its later controller snapshot, one completed run record, and
+author-supplied real-robot footage, not triple-jump records or real-robot
+backflip control.
 
 | Directory | Responsibility |
 | --- | --- |
@@ -71,8 +72,8 @@ That timestamp is not an embedded signed run timestamp.
 
 These are controller-completion and feedback diagnostics, not flight-height,
 displacement, landing-quality, or population success-rate measurements.
-The user confirms the physical jump. No physical-robot video was found in the
-inspected project. The report's `phase` remains `init` on success because this
+The user confirms the physical jump. The report's `phase` remains `init` on
+success because this
 snapshot updates that field only on faults; it is not evidence of no execution.
 The retained handback trace covers control restoration, not the whole jump.
 
@@ -81,6 +82,19 @@ after the selected report. We preserve the latest inspected snapshot and the
 original record separately; we do not claim a frozen run-source archive.
 [snapshot.json](../hardware-single-jump/snapshot.json) records hashes and
 these limits.
+
+## Hardware Footage
+
+The author separately supplied a [5.87-second real-robot clip](media/hardware-single-jump.mp4)
+on November 14, 2026. The README includes a looping preview of the complete clip.
+The published MP4 preserves all 176 frames and the original audio, with H.264
+encoding for web playback.
+
+This is visual evidence supplied for the project, not a timestamp-matched
+recording of `jump-152659.json`. The clip has not been bound to that log or to
+specific source/model hashes. Its receipt date is not a confirmed recording
+date. [Media provenance](media/hardware-video.json) records the original and
+published hashes and the conversion.
 
 ## Preserved Boundaries
 

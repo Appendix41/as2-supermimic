@@ -20,11 +20,12 @@ AS2-SuperMimic 让 AS2 根据参考轨迹学习动作。策略读取机器人反
 
 | 前跳阶段对比 | 后空翻阶段对比 | 后空翻落地失败 |
 | :---: | :---: | :---: |
-| [![前跳训练阶段](docs/media/single-jump-training-stages.jpg)](docs/media/single-jump-training-stages.mp4) | [![后空翻训练阶段](docs/media/backflip-training-stages.jpg)](docs/media/backflip-training-stages.mp4) | [![后空翻落地失败回放](docs/media/backflip-landing-failures.jpg)](docs/media/backflip-landing-failures.mp4) |
+| [![前跳训练阶段](docs/media/single-jump-training-stages.gif)](docs/media/single-jump-training-stages.mp4) | [![后空翻训练阶段](docs/media/backflip-training-stages.gif)](docs/media/backflip-training-stages.mp4) | [![后空翻落地失败回放](docs/media/backflip-landing-failures.gif)](docs/media/backflip-landing-failures.mp4) |
 | [初始、400、800、1000 次迭代 · 32.16 秒](docs/media/single-jump-training-stages.mp4) | [初始到 2400 次迭代，7 个阶段 · 56.28 秒](docs/media/backflip-training-stages.mp4) | [1800、2000 次迭代 · 28.88 秒](docs/media/backflip-landing-failures.mp4) |
 
 这些视频来自训练期间保存的策略评估录像，保留了早期未起跳和落地失败的阶段。
-阶段对比按原速播放；落地失败视频另附 0.25 倍速、1.5 倍放大的局部回放。
+动图为原速阶段节选，点击可查看完整录像；落地失败的完整视频另附
+0.25 倍速、1.5 倍放大的局部回放。
 
 ## 训练设备与耗时
 
@@ -57,7 +58,7 @@ AS2-SuperMimic 让 AS2 根据参考轨迹学习动作。策略读取机器人反
 | 仿真单跳 | 参考生成、训练、模型、独立物理评估 |
 | 仿真后空翻 | 参考、训练、实验性动作迁移、完整指标 |
 | 本体感知单跳 | 训练、NumPy actor 导出和部署接口 |
-| 真机单跳 | AGX 控制器、推理 bundle 和一次运行记录 |
+| 真机单跳 | AGX 控制器、推理 bundle、运行记录和实拍视频 |
 
 ## Sim-to-Real
 
@@ -66,8 +67,13 @@ AS2-SuperMimic 让 AS2 根据参考轨迹学习动作。策略读取机器人反
 **400 个策略步、7.98 秒**的执行过程，结束后将控制权交还 `ai`。
 部署 bundle 与本地 proprio 单跳导出一致。
 
-目前未附真机视频；代码快照晚于这次日志，日志也没有记录源码和模型哈希。
-具体版本关系和运行限制见[部署说明](docs/sim2real-integration.md)。
+下面是作者提供的 AS2 真机前跳实拍片段，动图保留整段原速画面。
+
+[![AS2 真机前跳](docs/media/hardware-single-jump.gif)](docs/media/hardware-single-jump.mp4)
+
+[完整真机视频 · 5.87 秒 · 含原声](docs/media/hardware-single-jump.mp4)
+
+训练、部署文件和运行记录的版本关系见[部署说明](docs/sim2real-integration.md)。
 
 ## 快速运行
 

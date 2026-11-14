@@ -24,22 +24,46 @@ simulation evaluation videos:
   Slow motion repeats frames; it does not interpolate robot motion.
 
 These are checkpoint evaluations, not recordings of the full collection batch.
-The JPEG previews are frames from their corresponding MP4s. Video hashes,
-chapter offsets, and preview-frame indices are in
+The retained JPEG stills are frames from their corresponding MP4s. Video hashes,
+chapter offsets, and still-frame indices are in
 [training-media.json](training-media.json). The copied backflip montage's
 original [provenance](backflip-replay-provenance.json) uses paths relative to its
 original replay folder, not this publication folder.
 
-## Front-Page GIFs
+## Final-Policy GIFs
 
 GIFs use the full corresponding policy videos, 640 x 360 pixels at 12 fps,
 a 96-color palette, and Bayer dithering. There is no playback-rate remapping,
 trajectory alteration, synthetic image generation, or removal of landing
 periods. Small duration differences reflect frame-rate/GIF quantization.
 
+## Training Preview GIFs
+
+The three training-table previews are looping GIFs at 480 pixels wide and 12 fps.
+They retain original-speed simulation time 1.2 through 3.6 s from each selected
+checkpoint, with the original stage labels. The landing-failure preview uses
+the two original-speed chapters; its slow-motion sequences remain in the full MP4.
+
+These are excerpts, not full rollouts. No interpolation or speed-up is applied.
+Exact source intervals, hashes, frame counts, and durations are in
+[preview-gifs.json](preview-gifs.json).
+
 ## Hardware
 
-The later real-hardware project has been inspected and its controller/report
-imported, but no hardware video was found there. A physical-robot clip can be
-added separately when supplied. This folder does not substitute simulation
-video for hardware evidence.
+`hardware-single-jump.mp4` is real-robot footage supplied by the author on
+November 14, 2026. The full 176-frame clip is 960 x 540 at 30 fps, approximately
+5.87 seconds. It is transcoded from HEVC to H.264 for web playback, with the
+original AAC audio copied and nonessential container metadata removed.
+There are no temporal cuts, speed changes, spatial crops, or motion interpolation.
+The original supplied file is preserved in the local-only audit directory.
+
+`hardware-single-jump.gif` shows the complete clip at 640 x 360 and 12 fps,
+at original speed and without audio. It uses a 96-color palette and Bayer
+dithering. Frame-rate and GIF timing quantization account for small duration
+differences.
+
+The user identifies this as the project's physical AS2 forward-jump footage.
+It was supplied separately from the AGX snapshot; its identity with the
+selected historical log, recording date, and exact source/model version have
+not been established. See [hardware-video.json](hardware-video.json) for hashes
+and conversion details.

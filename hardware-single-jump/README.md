@@ -5,6 +5,14 @@ on November 14, 2026, plus one completed run record from November 13.
 The author reports a successful physical forward jump. The selected log
 records 400 learned-policy steps and return of control to `ai`.
 
+## Hardware Video
+
+[![AS2 real-robot forward jump](../docs/media/hardware-single-jump.gif)](../docs/media/hardware-single-jump.mp4)
+
+[Full author-supplied clip, 5.87 seconds with original audio](../docs/media/hardware-single-jump.mp4).
+This video was supplied separately from the AGX snapshot and has not been
+matched to the selected log or specific model/source hashes.
+
 ## Contents
 
 | Path | Role |
